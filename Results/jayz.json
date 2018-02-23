@@ -1,0 +1,353 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52649:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/tools.jar:/Users/rudenka/workspace/ArtistImage/target/classes:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-core/2.0.0/beam-sdks-java-core-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar:/Users/rudenka/.m2/repository/org/apache/avro/avro/1.8.1/avro-1.8.1.jar:/Users/rudenka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/rudenka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/rudenka/.m2/repository/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.jar:/Users/rudenka/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar:/Users/rudenka/.m2/repository/org/xerial/snappy/snappy-java/1.1.4-M3/snappy-java-1.1.4-M3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.0.0/beam-sdks-java-io-google-cloud-platform-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-extensions-google-cloud-platform-core/2.0.0/beam-sdks-java-extensions-google-cloud-platform-core-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-cloudresourcemanager/v1-rev6-1.22.0/google-api-services-cloudresourcemanager-v1-rev6-1.22.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-extensions-protobuf/2.0.0/beam-sdks-java-extensions-protobuf-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-pubsub-v1/0.1.0/grpc-google-pubsub-v1-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-iam-v1/0.1.0/grpc-google-iam-v1-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigdataoss/util/1.4.5/util-1.4.5.jar:/Users/rudenka/.m2/repository/com/google/cloud/datastore/datastore-v1-proto-client/1.4.0/datastore-v1-proto-client-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/datastore/datastore-v1-protos/1.3.0/datastore-v1-protos-1.3.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-auth/1.2.0/grpc-auth-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-core/1.2.0/grpc-core-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.11/error_prone_annotations-2.0.11.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-context/1.2.0/grpc-context-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/instrumentation/instrumentation-api/0.3.0/instrumentation-api-0.3.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-netty/1.2.0/grpc-netty-1.2.0.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-stub/1.2.0/grpc-stub-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-all/1.2.0/grpc-all-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-okhttp/1.2.0/grpc-okhttp-1.2.0.jar:/Users/rudenka/.m2/repository/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf/1.2.0/grpc-protobuf-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf-lite/1.2.0/grpc-protobuf-lite-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf-nano/1.2.0/grpc-protobuf-nano-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/protobuf/nano/protobuf-javanano/3.0.0-alpha-5/protobuf-javanano-3.0.0-alpha-5.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigtable/bigtable-protos/0.9.6.2/bigtable-protos-0.9.6.2.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigtable/bigtable-client-core/0.9.6.2/bigtable-client-core-0.9.6.2.jar:/Users/rudenka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-appengine/0.6.0/google-auth-library-appengine-0.6.0.jar:/Users/rudenka/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.9.34/appengine-api-1.0-sdk-1.9.34.jar:/Users/rudenka/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-credentials/0.6.1/google-auth-library-credentials-0.6.1.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-oauth2-http/0.6.1/google-auth-library-oauth2-http-0.6.1.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-common-protos/0.1.0/grpc-google-common-protos-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/protobuf/protobuf-java/3.2.0/protobuf-java-3.2.0.jar:/Users/rudenka/.m2/repository/io/netty/netty-tcnative-boringssl-static/1.1.33.Fork26/netty-tcnative-boringssl-static-1.1.33.Fork26.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar:/Users/rudenka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/rudenka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/rudenka/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-pubsub/v1-rev10-1.22.0/google-api-services-pubsub-v1-rev10-1.22.0.jar:/Users/rudenka/.m2/repository/joda-time/joda-time/2.4/joda-time-2.4.jar:/Users/rudenka/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar:/Users/rudenka/.m2/repository/org/json/json/20170516/json-20170516.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-bigquery/0.22.0-beta/google-cloud-bigquery-0.22.0-beta.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-core/1.4.0/google-cloud-core-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/api/api-common/1.1.0/api-common-1.1.0.jar:/Users/rudenka/.m2/repository/com/google/api/gax/1.5.0/gax-1.5.0.jar:/Users/rudenka/.m2/repository/com/google/auto/value/auto-value/1.2/auto-value-1.2.jar:/Users/rudenka/.m2/repository/org/threeten/threetenbp/1.3.3/threetenbp-1.3.3.jar:/Users/rudenka/.m2/repository/com/google/protobuf/protobuf-java-util/3.3.1/protobuf-java-util-3.3.1.jar:/Users/rudenka/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/proto-google-common-protos/0.1.15/proto-google-common-protos-0.1.15.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/proto-google-iam-v1/0.1.15/proto-google-iam-v1-0.1.15.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-core-http/1.4.0/google-cloud-core-http-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-appengine/1.22.0/google-http-client-appengine-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/dataflow/google-cloud-dataflow-java-sdk-all/1.9.0/google-cloud-dataflow-java-sdk-all-1.9.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-dataflow/v1b3-rev43-1.22.0/google-api-services-dataflow-v1b3-rev43-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-pubsub-v1/0.0.2/grpc-pubsub-v1-0.0.2.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-core-proto/0.0.3/grpc-core-proto-0.0.3.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client-java6/1.22.0/google-api-client-java6-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client-jackson2/1.22.0/google-api-client-jackson2-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-clouddebugger/v2-rev8-1.22.0/google-api-services-clouddebugger-v2-rev8-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-storage/v1-rev71-1.22.0/google-api-services-storage-v1-rev71-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-jackson/1.22.0/google-http-client-jackson-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-protobuf/1.22.0/google-http-client-protobuf-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.22.0/google-oauth-client-java6-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-datastore-protobuf/v1beta2-rev1-4.0.0/google-api-services-datastore-protobuf-v1beta2-rev1-4.0.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigdataoss/gcsio/1.4.5/gcsio-1.4.5.jar:/Users/rudenka/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-bigquery/v2-rev355-1.22.0/google-api-services-bigquery-v2-rev355-1.22.0.jar:/Users/rudenka/.m2/repository/org/mongodb/mongodb-driver/3.4.3/mongodb-driver-3.4.3.jar:/Users/rudenka/.m2/repository/org/mongodb/mongodb-driver-core/3.4.3/mongodb-driver-core-3.4.3.jar:/Users/rudenka/.m2/repository/org/mongodb/bson/3.4.3/bson-3.4.3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-io-mongodb/2.0.0/beam-sdks-java-io-mongodb-2.0.0.jar:/Users/rudenka/.m2/repository/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar:/Users/rudenka/.m2/repository/org/slf4j/slf4j-api/1.7.14/slf4j-api-1.7.14.jar:/Users/rudenka/.m2/repository/org/slf4j/slf4j-jdk14/1.7.14/slf4j-jdk14-1.7.14.jar:/Users/rudenka/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/rudenka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/rudenka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-runners-direct-java/2.0.0/beam-runners-direct-java-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-runners-google-cloud-dataflow-java/2.0.0/beam-runners-google-cloud-dataflow-java-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-common-runner-api/2.0.0/beam-sdks-common-runner-api-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-storage/1.8.0/google-cloud-storage-1.8.0.jar:/Users/rudenka/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/rudenka/.m2/repository/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.jar:/Users/rudenka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar:/Users/rudenka/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar:/Users/rudenka/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/rudenka/.m2/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar:/Users/rudenka/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/Users/rudenka/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/rudenka/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/rudenka/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:/Users/rudenka/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar:/Users/rudenka/.m2/repository/javax/activation/activation/1.0.2/activation-1.0.2.jar ArtistImageStudy.RunSQL -v 2
+Successfully retrieved an access token! BQA02AX8apP5Lm0ecxMoWXMmUTKVrMB2Ji-SA1HJRIGUx07K9IoWUvN35FlOTxlJ5qwJK7KWHuzY_JEGc3hw4g
+The access token expires in 3600 seconds
+_TOKEN=Bearer BQA02AX8apP5Lm0ecxMoWXMmUTKVrMB2Ji-SA1HJRIGUx07K9IoWUvN35FlOTxlJ5qwJK7KWHuzY_JEGc3hw4g
+TRACK BODY(Dmitri){
+"tracks" : {
+"href" : "https://api.spotify.com/v1/search?query=isrc%3AUSDJM0400007&type=track&offset=0&limit=20",
+"items" : [ {
+"album" : {
+"album_type" : "album",
+"artists" : [ {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/2sBv30RzdeMVPoBXbzjIo5"
+},
+"href" : "https://api.spotify.com/v1/artists/2sBv30RzdeMVPoBXbzjIo5",
+"id" : "2sBv30RzdeMVPoBXbzjIo5",
+"name" : "Young Gunz",
+"type" : "artist",
+"uri" : "spotify:artist:2sBv30RzdeMVPoBXbzjIo5"
+} ],
+"available_markets" : [ "CA", "MX", "US" ],
+"external_urls" : {
+"spotify" : "https://open.spotify.com/album/7IL7LdxslYLbtY2d89o7qZ"
+},
+"href" : "https://api.spotify.com/v1/albums/7IL7LdxslYLbtY2d89o7qZ",
+"id" : "7IL7LdxslYLbtY2d89o7qZ",
+"images" : [ {
+"height" : 640,
+"url" : "https://i.scdn.co/image/826024b7815de775cb51f86761d1d9130d146c5c",
+"width" : 612
+}, {
+"height" : 300,
+"url" : "https://i.scdn.co/image/b27644f737567309315431afb3d1d6a2906f7df8",
+"width" : 287
+}, {
+"height" : 64,
+"url" : "https://i.scdn.co/image/e2f9a051579bead58c13b3e1e1d40ea7892b5589",
+"width" : 61
+} ],
+"name" : "Tough Luv",
+"type" : "album",
+"uri" : "spotify:album:7IL7LdxslYLbtY2d89o7qZ"
+},
+"artists" : [ {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/2sBv30RzdeMVPoBXbzjIo5"
+},
+"href" : "https://api.spotify.com/v1/artists/2sBv30RzdeMVPoBXbzjIo5",
+"id" : "2sBv30RzdeMVPoBXbzjIo5",
+"name" : "Young Gunz",
+"type" : "artist",
+"uri" : "spotify:artist:2sBv30RzdeMVPoBXbzjIo5"
+}, {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/3s2wTjWxK8NOX09dmsvVOh"
+},
+"href" : "https://api.spotify.com/v1/artists/3s2wTjWxK8NOX09dmsvVOh",
+"id" : "3s2wTjWxK8NOX09dmsvVOh",
+"name" : "Chingy",
+"type" : "artist",
+"uri" : "spotify:artist:3s2wTjWxK8NOX09dmsvVOh"
+} ],
+"available_markets" : [ "CA", "MX", "US" ],
+"disc_number" : 1,
+"duration_ms" : 262800,
+"explicit" : true,
+"external_ids" : {
+"isrc" : "USDJM0400007"
+},
+"external_urls" : {
+"spotify" : "https://open.spotify.com/track/0a0HVlMAWI25EDo9Hr7aR7"
+},
+"href" : "https://api.spotify.com/v1/tracks/0a0HVlMAWI25EDo9Hr7aR7",
+"id" : "0a0HVlMAWI25EDo9Hr7aR7",
+"name" : "Can't Stop, Won't Stop - Album Version Remix (Explicit)",
+"popularity" : 39,
+"preview_url" : null,
+"track_number" : 17,
+"type" : "track",
+"uri" : "spotify:track:0a0HVlMAWI25EDo9Hr7aR7"
+} ],
+"limit" : 20,
+"next" : null,
+"offset" : 0,
+"previous" : null,
+"total" : 1
+}
+}
+START OF ITEM TRACK_NAME=Can't Stop, Won't Stop - Album Version Remix (Explicit)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0a0HVlMAWI25EDo9Hr7aR7
+ARTIST_HREF=https://api.spotify.com/v1/artists/2sBv30RzdeMVPoBXbzjIo5
+ARTIST_NAME=Young Gunz
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/2sBv30RzdeMVPoBXbzjIo5
+ARTIST_BODY(Dmitri way)={
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/2sBv30RzdeMVPoBXbzjIo5"
+},
+"followers" : {
+"href" : null,
+"total" : 34974
+},
+"genres" : [ "crunk", "dirty south rap", "hip pop", "pop rap", "southern hip hop", "trap music" ],
+"href" : "https://api.spotify.com/v1/artists/2sBv30RzdeMVPoBXbzjIo5",
+"id" : "2sBv30RzdeMVPoBXbzjIo5",
+"images" : [ {
+"height" : 1000,
+"url" : "https://i.scdn.co/image/31ccdc8052e944c24ac1181941ea06158cdb6bea",
+"width" : 1000
+}, {
+"height" : 640,
+"url" : "https://i.scdn.co/image/db208e128888e16e1430541d59fa46bc733da438",
+"width" : 640
+}, {
+"height" : 200,
+"url" : "https://i.scdn.co/image/67f662562c19b549615b7d6e3b140f6dda3748c7",
+"width" : 200
+}, {
+"height" : 64,
+"url" : "https://i.scdn.co/image/c87da7de34b02bee67e66162176328c06d04d2c2",
+"width" : 64
+} ],
+"name" : "Young Gunz",
+"popularity" : 40,
+"type" : "artist",
+"uri" : "spotify:artist:2sBv30RzdeMVPoBXbzjIo5"
+}
+ooooo ARTIST_NAME=Young Gunz
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c87da7de34b02bee67e66162176328c06d04d2c2
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+ARTIST_HREF=https://api.spotify.com/v1/artists/3s2wTjWxK8NOX09dmsvVOh
+ARTIST_NAME=Chingy
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/3s2wTjWxK8NOX09dmsvVOh
+ARTIST_BODY(Dmitri way)={
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/3s2wTjWxK8NOX09dmsvVOh"
+},
+"followers" : {
+"href" : null,
+"total" : 173807
+},
+"genres" : [ "crunk", "dance pop", "dirty south rap", "gangster rap", "hip hop", "hip pop", "pop rap", "r&b", "rap", "southern hip hop", "trap music", "urban contemporary" ],
+"href" : "https://api.spotify.com/v1/artists/3s2wTjWxK8NOX09dmsvVOh",
+"id" : "3s2wTjWxK8NOX09dmsvVOh",
+"images" : [ {
+"height" : 1000,
+"url" : "https://i.scdn.co/image/73e656dc5a6e7bed02d7a0033cd70678332ff6de",
+"width" : 1000
+}, {
+"height" : 640,
+"url" : "https://i.scdn.co/image/c88d743023c606e72b92dc653eca8de32701acb6",
+"width" : 640
+}, {
+"height" : 200,
+"url" : "https://i.scdn.co/image/8e6bba2108b48f597e80133431cec16c505c5e29",
+"width" : 200
+}, {
+"height" : 64,
+"url" : "https://i.scdn.co/image/233de8a83cdb7322e4da98e4c35de828f731152f",
+"width" : 64
+} ],
+"name" : "Chingy",
+"popularity" : 64,
+"type" : "artist",
+"uri" : "spotify:artist:3s2wTjWxK8NOX09dmsvVOh"
+}
+ooooo ARTIST_NAME=Chingy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/233de8a83cdb7322e4da98e4c35de828f731152f
+END OF ITEM=Can't Stop, Won't Stop - Album Version Remix (Explicit)
+
+
+End of ISRC
+
+
+
+
+
+
+TRACK BODY(Dmitri){
+"tracks" : {
+"href" : "https://api.spotify.com/v1/search?query=isrc%3AUSUR19801711&type=track&offset=0&limit=20",
+"items" : [ {
+"album" : {
+"album_type" : "album",
+"artists" : [ {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/0rG0AZBscc8S8q1ahIsasI"
+},
+"href" : "https://api.spotify.com/v1/artists/0rG0AZBscc8S8q1ahIsasI",
+"id" : "0rG0AZBscc8S8q1ahIsasI",
+"name" : "Juvenile",
+"type" : "artist",
+"uri" : "spotify:artist:0rG0AZBscc8S8q1ahIsasI"
+} ],
+"available_markets" : [ "US" ],
+"external_urls" : {
+"spotify" : "https://open.spotify.com/album/4NuZ7PeyTiiDuG87Zn28CO"
+},
+"href" : "https://api.spotify.com/v1/albums/4NuZ7PeyTiiDuG87Zn28CO",
+"id" : "4NuZ7PeyTiiDuG87Zn28CO",
+"images" : [ {
+"height" : 640,
+"url" : "https://i.scdn.co/image/b204ce86af008a46519ab7a632b14d8abe17408f",
+"width" : 640
+}, {
+"height" : 300,
+"url" : "https://i.scdn.co/image/6e1708743c6699fd96044437d768b27a19f9b29b",
+"width" : 300
+}, {
+"height" : 64,
+"url" : "https://i.scdn.co/image/fd159b188ae4186e2d99dc6581a82f9156d57fe8",
+"width" : 64
+} ],
+"name" : "400 Degreez",
+"type" : "album",
+"uri" : "spotify:album:4NuZ7PeyTiiDuG87Zn28CO"
+},
+"artists" : [ {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/0rG0AZBscc8S8q1ahIsasI"
+},
+"href" : "https://api.spotify.com/v1/artists/0rG0AZBscc8S8q1ahIsasI",
+"id" : "0rG0AZBscc8S8q1ahIsasI",
+"name" : "Juvenile",
+"type" : "artist",
+"uri" : "spotify:artist:0rG0AZBscc8S8q1ahIsasI"
+}, {
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB"
+},
+"href" : "https://api.spotify.com/v1/artists/3nFkdlSjzX9mRTtwJOzDYB",
+"id" : "3nFkdlSjzX9mRTtwJOzDYB",
+"name" : "JAY Z",
+"type" : "artist",
+"uri" : "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB"
+} ],
+"available_markets" : [ "US" ],
+"disc_number" : 1,
+"duration_ms" : 233973,
+"explicit" : false,
+"external_ids" : {
+"isrc" : "USUR19801711"
+},
+"external_urls" : {
+"spotify" : "https://open.spotify.com/track/7FbrKR0iz24buaRTz7Y4pB"
+},
+"href" : "https://api.spotify.com/v1/tracks/7FbrKR0iz24buaRTz7Y4pB",
+"id" : "7FbrKR0iz24buaRTz7Y4pB",
+"name" : "Ha - Remix Version",
+"popularity" : 15,
+"preview_url" : null,
+"track_number" : 18,
+"type" : "track",
+"uri" : "spotify:track:7FbrKR0iz24buaRTz7Y4pB"
+} ],
+"limit" : 20,
+"next" : null,
+"offset" : 0,
+"previous" : null,
+"total" : 1
+}
+}
+START OF ITEM TRACK_NAME=Ha - Remix Version   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7FbrKR0iz24buaRTz7Y4pB
+ARTIST_HREF=https://api.spotify.com/v1/artists/0rG0AZBscc8S8q1ahIsasI
+ARTIST_NAME=Juvenile
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/0rG0AZBscc8S8q1ahIsasI
+ARTIST_BODY(Dmitri way)={
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/0rG0AZBscc8S8q1ahIsasI"
+},
+"followers" : {
+"href" : null,
+"total" : 239061
+},
+"genres" : [ "bounce", "crunk", "deep southern trap", "dirty south rap", "gangster rap", "hip hop", "hip pop", "pop rap", "rap", "southern hip hop", "trap music" ],
+"href" : "https://api.spotify.com/v1/artists/0rG0AZBscc8S8q1ahIsasI",
+"id" : "0rG0AZBscc8S8q1ahIsasI",
+"images" : [ {
+"height" : 665,
+"url" : "https://i.scdn.co/image/9b0979334be12f30b68cb95c7f9fee51133eeb33",
+"width" : 1000
+}, {
+"height" : 425,
+"url" : "https://i.scdn.co/image/845e9dd84ff3d56b5ad0fbdca55385adc0ddb67b",
+"width" : 640
+}, {
+"height" : 133,
+"url" : "https://i.scdn.co/image/f72591cf2178ad89d5b7d42d1a9d73d7273d0446",
+"width" : 200
+}, {
+"height" : 43,
+"url" : "https://i.scdn.co/image/78a4c82368fecc98b2f9ed201cf2d6e213104f25",
+"width" : 64
+} ],
+"name" : "Juvenile",
+"popularity" : 64,
+"type" : "artist",
+"uri" : "spotify:artist:0rG0AZBscc8S8q1ahIsasI"
+}
+ooooo ARTIST_NAME=Juvenile
+******************** IMAGE_ARTIST=https://i.scdn.co/image/78a4c82368fecc98b2f9ed201cf2d6e213104f25
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+ARTIST_HREF=https://api.spotify.com/v1/artists/3nFkdlSjzX9mRTtwJOzDYB
+ARTIST_NAME=JAY Z
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/3nFkdlSjzX9mRTtwJOzDYB
+ARTIST_BODY(Dmitri way)={
+"external_urls" : {
+"spotify" : "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB"
+},
+"followers" : {
+"href" : null,
+"total" : 3273877
+},
+"genres" : [ "east coast hip hop", "hip hop", "pop rap", "rap", "southern hip hop", "trap music" ],
+"href" : "https://api.spotify.com/v1/artists/3nFkdlSjzX9mRTtwJOzDYB",
+"id" : "3nFkdlSjzX9mRTtwJOzDYB",
+"images" : [ {
+"height" : 1396,
+"url" : "https://i.scdn.co/image/9a5363970e82919ee634bdde15abd429bbcf0f65",
+"width" : 1000
+}, {
+"height" : 894,
+"url" : "https://i.scdn.co/image/c26b69d5f87a57ffda19df9a486bec8827fbb73a",
+"width" : 640
+}, {
+"height" : 279,
+"url" : "https://i.scdn.co/image/51af368477ff886e1618c4d13dca5eb4277383dd",
+"width" : 200
+}, {
+"height" : 89,
+"url" : "https://i.scdn.co/image/a40e63ac6de01a8a610a38f2d732d7f83d5ea689",
+"width" : 64
+} ],
+"name" : "JAY Z",
+"popularity" : 86,
+"type" : "artist",
+"uri" : "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB"
+}
+ooooo ARTIST_NAME=JAY Z
+******************** IMAGE_ARTIST=https://i.scdn.co/image/a40e63ac6de01a8a610a38f2d732d7f83d5ea689
+END OF ITEM=Ha - Remix Version
+
+
+End of ISRC
+
+
+
+
+
+
+Elapsed time = 19
+
+Process finished with exit code 0

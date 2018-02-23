@@ -1,0 +1,2901 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51986:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/lib/tools.jar:/Users/rudenka/workspace/ArtistImage/target/classes:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-core/2.0.0/beam-sdks-java-core-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.jar:/Users/rudenka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar:/Users/rudenka/.m2/repository/org/apache/avro/avro/1.8.1/avro-1.8.1.jar:/Users/rudenka/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/rudenka/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/rudenka/.m2/repository/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.jar:/Users/rudenka/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar:/Users/rudenka/.m2/repository/org/xerial/snappy/snappy-java/1.1.4-M3/snappy-java-1.1.4-M3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.0.0/beam-sdks-java-io-google-cloud-platform-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-extensions-google-cloud-platform-core/2.0.0/beam-sdks-java-extensions-google-cloud-platform-core-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-cloudresourcemanager/v1-rev6-1.22.0/google-api-services-cloudresourcemanager-v1-rev6-1.22.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-extensions-protobuf/2.0.0/beam-sdks-java-extensions-protobuf-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-pubsub-v1/0.1.0/grpc-google-pubsub-v1-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-iam-v1/0.1.0/grpc-google-iam-v1-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigdataoss/util/1.4.5/util-1.4.5.jar:/Users/rudenka/.m2/repository/com/google/cloud/datastore/datastore-v1-proto-client/1.4.0/datastore-v1-proto-client-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/datastore/datastore-v1-protos/1.3.0/datastore-v1-protos-1.3.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-auth/1.2.0/grpc-auth-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-core/1.2.0/grpc-core-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.11/error_prone_annotations-2.0.11.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-context/1.2.0/grpc-context-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/instrumentation/instrumentation-api/0.3.0/instrumentation-api-0.3.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-netty/1.2.0/grpc-netty-1.2.0.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-stub/1.2.0/grpc-stub-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-all/1.2.0/grpc-all-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-okhttp/1.2.0/grpc-okhttp-1.2.0.jar:/Users/rudenka/.m2/repository/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf/1.2.0/grpc-protobuf-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf-lite/1.2.0/grpc-protobuf-lite-1.2.0.jar:/Users/rudenka/.m2/repository/io/grpc/grpc-protobuf-nano/1.2.0/grpc-protobuf-nano-1.2.0.jar:/Users/rudenka/.m2/repository/com/google/protobuf/nano/protobuf-javanano/3.0.0-alpha-5/protobuf-javanano-3.0.0-alpha-5.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigtable/bigtable-protos/0.9.6.2/bigtable-protos-0.9.6.2.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigtable/bigtable-client-core/0.9.6.2/bigtable-client-core-0.9.6.2.jar:/Users/rudenka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-appengine/0.6.0/google-auth-library-appengine-0.6.0.jar:/Users/rudenka/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.9.34/appengine-api-1.0-sdk-1.9.34.jar:/Users/rudenka/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-credentials/0.6.1/google-auth-library-credentials-0.6.1.jar:/Users/rudenka/.m2/repository/com/google/auth/google-auth-library-oauth2-http/0.6.1/google-auth-library-oauth2-http-0.6.1.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-google-common-protos/0.1.0/grpc-google-common-protos-0.1.0.jar:/Users/rudenka/.m2/repository/com/google/protobuf/protobuf-java/3.2.0/protobuf-java-3.2.0.jar:/Users/rudenka/.m2/repository/io/netty/netty-tcnative-boringssl-static/1.1.33.Fork26/netty-tcnative-boringssl-static-1.1.33.Fork26.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar:/Users/rudenka/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/rudenka/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/rudenka/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-pubsub/v1-rev10-1.22.0/google-api-services-pubsub-v1-rev10-1.22.0.jar:/Users/rudenka/.m2/repository/joda-time/joda-time/2.4/joda-time-2.4.jar:/Users/rudenka/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar:/Users/rudenka/.m2/repository/org/json/json/20170516/json-20170516.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-bigquery/0.22.0-beta/google-cloud-bigquery-0.22.0-beta.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-core/1.4.0/google-cloud-core-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/api/api-common/1.1.0/api-common-1.1.0.jar:/Users/rudenka/.m2/repository/com/google/api/gax/1.5.0/gax-1.5.0.jar:/Users/rudenka/.m2/repository/com/google/auto/value/auto-value/1.2/auto-value-1.2.jar:/Users/rudenka/.m2/repository/org/threeten/threetenbp/1.3.3/threetenbp-1.3.3.jar:/Users/rudenka/.m2/repository/com/google/protobuf/protobuf-java-util/3.3.1/protobuf-java-util-3.3.1.jar:/Users/rudenka/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/proto-google-common-protos/0.1.15/proto-google-common-protos-0.1.15.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/proto-google-iam-v1/0.1.15/proto-google-iam-v1-0.1.15.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-core-http/1.4.0/google-cloud-core-http-1.4.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-appengine/1.22.0/google-http-client-appengine-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/dataflow/google-cloud-dataflow-java-sdk-all/1.9.0/google-cloud-dataflow-java-sdk-all-1.9.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-dataflow/v1b3-rev43-1.22.0/google-api-services-dataflow-v1b3-rev43-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-pubsub-v1/0.0.2/grpc-pubsub-v1-0.0.2.jar:/Users/rudenka/.m2/repository/com/google/api/grpc/grpc-core-proto/0.0.3/grpc-core-proto-0.0.3.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client-java6/1.22.0/google-api-client-java6-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/api-client/google-api-client-jackson2/1.22.0/google-api-client-jackson2-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-clouddebugger/v2-rev8-1.22.0/google-api-services-clouddebugger-v2-rev8-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-storage/v1-rev71-1.22.0/google-api-services-storage-v1-rev71-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-jackson/1.22.0/google-http-client-jackson-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/http-client/google-http-client-protobuf/1.22.0/google-http-client-protobuf-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.22.0/google-oauth-client-java6-1.22.0.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-datastore-protobuf/v1beta2-rev1-4.0.0/google-api-services-datastore-protobuf-v1beta2-rev1-4.0.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/bigdataoss/gcsio/1.4.5/gcsio-1.4.5.jar:/Users/rudenka/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/Users/rudenka/.m2/repository/com/google/apis/google-api-services-bigquery/v2-rev355-1.22.0/google-api-services-bigquery-v2-rev355-1.22.0.jar:/Users/rudenka/.m2/repository/org/mongodb/mongodb-driver/3.4.3/mongodb-driver-3.4.3.jar:/Users/rudenka/.m2/repository/org/mongodb/mongodb-driver-core/3.4.3/mongodb-driver-core-3.4.3.jar:/Users/rudenka/.m2/repository/org/mongodb/bson/3.4.3/bson-3.4.3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-java-io-mongodb/2.0.0/beam-sdks-java-io-mongodb-2.0.0.jar:/Users/rudenka/.m2/repository/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar:/Users/rudenka/.m2/repository/org/slf4j/slf4j-api/1.7.14/slf4j-api-1.7.14.jar:/Users/rudenka/.m2/repository/org/slf4j/slf4j-jdk14/1.7.14/slf4j-jdk14-1.7.14.jar:/Users/rudenka/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/rudenka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/rudenka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-runners-direct-java/2.0.0/beam-runners-direct-java-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-runners-google-cloud-dataflow-java/2.0.0/beam-runners-google-cloud-dataflow-java-2.0.0.jar:/Users/rudenka/.m2/repository/org/apache/beam/beam-sdks-common-runner-api/2.0.0/beam-sdks-common-runner-api-2.0.0.jar:/Users/rudenka/.m2/repository/com/google/cloud/google-cloud-storage/1.8.0/google-cloud-storage-1.8.0.jar:/Users/rudenka/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/rudenka/.m2/repository/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.jar:/Users/rudenka/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar:/Users/rudenka/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar:/Users/rudenka/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/rudenka/.m2/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar:/Users/rudenka/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/Users/rudenka/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/rudenka/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/rudenka/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:/Users/rudenka/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar:/Users/rudenka/.m2/repository/javax/activation/activation/1.0.2/activation-1.0.2.jar ArtistImageStudy.RunSQL -v 1
+select isrc
+from `umg-swift.metadata.product`
+where release_artist_id=10025095
+AND LENGTH(isrc)>0
+GROUP BY 1
+limit 100000
+ISRC=0      NLC281111593
+Successfully retrieved an access token! BQBevKsh3NeIVRIjlF7-GG-CiusS1l02A9wODjGRPx3UYuWJ6JIsv4tj4o11IyBBofRtT3sq7Zc79mHqDVJy_g
+The access token expires in 3600 seconds
+_TOKEN=Bearer BQBevKsh3NeIVRIjlF7-GG-CiusS1l02A9wODjGRPx3UYuWJ6JIsv4tj4o11IyBBofRtT3sq7Zc79mHqDVJy_g
+ISRC=1      GBAHT1200457
+START OF ITEM TRACK_NAME=Last Dance - Avicii Instrumental Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1jtvrU2uOewLAnU2KeSs6Z
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Last Dance - Avicii Instrumental Radio Edit
+
+
+ISRC=2      14UMJMR00240
+ISRC=3      14UMJMR00826
+ISRC=4      AUVC00900111
+START OF ITEM TRACK_NAME=Muja   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1PZ2RH6dUdhZzii2Az2S7s
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Muja
+
+
+START OF ITEM TRACK_NAME=Muja - Original Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/1LJQOKU7Ei0nluz44z4SkU
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Muja - Original Mix
+
+
+ISRC=5      DEH741100368
+START OF ITEM TRACK_NAME=Sweet Dreams - Avicii Swede Dub Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0YYCwawxOvea0rkSGmlFSb
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sweet Dreams - Avicii Swede Dub Mix
+
+
+ISRC=6      DEUM71200562
+ISRC=7      NLC281011798
+ISRC=8      CH3131140001
+START OF ITEM TRACK_NAME=Fade Into Darkness - Vocal Club Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1UF1dQ8vhfDRMahFZ8Kq4a
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Vocal Club Mix
+
+
+START OF ITEM TRACK_NAME=Fade Into Darkness - Vocal Radio Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/2X8ifiHFSZ3jEz4LWtlyho
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Vocal Radio Mix
+
+
+ISRC=9      CH3131140008
+ISRC=10      CH3131340063
+START OF ITEM TRACK_NAME=Wake Me Up   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7ivZqsjeVSJWXTIjuFo7uW
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up
+
+
+ISRC=11      CH3131340096
+ISRC=12      CH3131340117
+ISRC=13      CH3131340175
+ISRC=14      CH3131340177
+ISRC=15      CH3131340240
+ISRC=16      CH3131340243
+ISRC=17      CH3131340251
+ISRC=18      CH3131340324
+ISRC=19      CH3131340332
+START OF ITEM TRACK_NAME=Lay Me Down - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7wP8uxXoB9OctkMwmD52md
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Lay Me Down - Avicii By Avicii
+
+
+START OF ITEM TRACK_NAME=Lay Me Down - Avicii By Avicii   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/3OQiFSKYAs6GtIRVT2lrcX
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5baGk14NDI3ZDPbr6wJilc
+ARTIST_NAME=Tim Bergling
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5baGk14NDI3ZDPbr6wJilc
+******************** IMAGE_ARTIST=https://i.scdn.co/image/dfca76c3ec4967216d5167ed0b78e8125e03e00b
+END OF ITEM=Lay Me Down - Avicii By Avicii
+
+
+ISRC=20      CH3131340351
+ISRC=21      CH3131340353
+ISRC=22      CH3131340372
+START OF ITEM TRACK_NAME=Addicted To You - Albin Myers Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2CpTd39I5eJx4BCJw3GfH5
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Albin Myers Remix
+
+
+ISRC=23      CH3131340384
+ISRC=24      CH3131340385
+ISRC=25      CH3131340419
+ISRC=26      CH3131340448
+ISRC=27      CH3131340475
+ISRC=28      CH3131400001
+START OF ITEM TRACK_NAME=Carnaval   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/61aXQnDNYHyrxINXMrqgmN
+ARTIST_HREF=https://api.spotify.com/v1/artists/24Sxfn1uAoJmuR9N72drt9
+ARTIST_NAME=Mike Candys
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/24Sxfn1uAoJmuR9N72drt9
+******************** IMAGE_ARTIST=https://i.scdn.co/image/f437f16360815123b8af40a324b7681b76b4639f
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=Carnaval
+
+
+ISRC=29      CHB701400018
+ISRC=30      CHB701400140
+ISRC=31      CHB701400141
+ISRC=32      CHB701400194
+START OF ITEM TRACK_NAME=Gonna Love Ya   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1rDETmcizen79JghAEm1Se
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Gonna Love Ya
+
+
+ISRC=33      CHB701400229
+ISRC=34      CHB701400246
+ISRC=35      CHB701400248
+ISRC=36      CHB701400256
+ISRC=37      CHB701400262
+ISRC=38      CHB701400266
+ISRC=39      CHB701400273
+ISRC=40      CHB701400283
+ISRC=41      CHB701400305
+ISRC=42      CHB701600114
+ISRC=43      SE5R71700110
+ISRC=44      SE5R71700112
+ISRC=45      SE5R71700121
+ISRC=46      SE5R71700123
+ISRC=47      SE5R71700127
+ISRC=48      SE5R81701400
+ISRC=49      SEUM71100993
+ISRC=50      SEUM71101143
+START OF ITEM TRACK_NAME=Levels - Cazzette's NYC Mode Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5jArdzGcWlv1EVkwjRjtqy
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1I2Ym2gEyEg4e81eul5aKa
+ARTIST_NAME=Cazzette
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1I2Ym2gEyEg4e81eul5aKa
+ERROR: {
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=isrc%3ASEUM71101143&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+          "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+          "name" : "Avicii",
+          "type" : "artist",
+          "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+        } ],
+        "available_markets" : [ "CA", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7giqynKCJ9pdQgnmSTEyy6"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7giqynKCJ9pdQgnmSTEyy6",
+        "id" : "7giqynKCJ9pdQgnmSTEyy6",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/61d2aa370a2d32c14fb0bc7faa0c6823764d5e57",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/9cbd449a41326637984defae47b81b5d11d9e36a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/8c621935381e3ff9e97b09cab88dd2db4f435b06",
+          "width" : 64
+        } ],
+        "name" : "Levels",
+        "type" : "album",
+        "uri" : "spotify:album:7giqynKCJ9pdQgnmSTEyy6"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1I2Ym2gEyEg4e81eul5aKa"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1I2Ym2gEyEg4e81eul5aKa",
+        "id" : "1I2Ym2gEyEg4e81eul5aKa",
+        "name" : "Cazzette",
+        "type" : "artist",
+        "uri" : "spotify:artist:1I2Ym2gEyEg4e81eul5aKa"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 354373,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEUM71101143"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5jArdzGcWlv1EVkwjRjtqy"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5jArdzGcWlv1EVkwjRjtqy",
+      "id" : "5jArdzGcWlv1EVkwjRjtqy",
+      "name" : "Levels - Cazzette's NYC Mode Mix",
+      "popularity" : 30,
+      "preview_url" : null,
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:5jArdzGcWlv1EVkwjRjtqy"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+          "id" : "0LyfQWJT6nXafLPZqxe9Of",
+          "name" : "Various Artists",
+          "type" : "artist",
+          "uri" : "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5LxqOZECTctlKRYi2bjPkj"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5LxqOZECTctlKRYi2bjPkj",
+        "id" : "5LxqOZECTctlKRYi2bjPkj",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/5d3792d5ab1cea59e341892648c382f2a1c569ac",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/47e5c22f51a2393f721169cff035b7ed6604d9bc",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/1e72cb63a2fd3f19e3967bf4028f444ee4e4e8b6",
+          "width" : 64
+        } ],
+        "name" : "Strictly CAZZETTE (DJ Edition; Unmixed)",
+        "type" : "album",
+        "uri" : "spotify:album:5LxqOZECTctlKRYi2bjPkj"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+      "disc_number" : 1,
+      "duration_ms" : 353920,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEUM71101143"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6uTkLsQcQXEjFO58ktL3Ed"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6uTkLsQcQXEjFO58ktL3Ed",
+      "id" : "6uTkLsQcQXEjFO58ktL3Ed",
+      "name" : "Levels - CAZZETTE's NYC Mode Mix",
+      "popularity" : 2,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bf1f3019e9365834208f2ef1465a9bd48bb9ed9c?cid=dfff07a4af354ee6815a4ef9fc8e43ea",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:6uTkLsQcQXEjFO58ktL3Ed"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+          "id" : "0LyfQWJT6nXafLPZqxe9Of",
+          "name" : "Various Artists",
+          "type" : "artist",
+          "uri" : "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3Qj8tGkFiuSS14xWvHfPDf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3Qj8tGkFiuSS14xWvHfPDf",
+        "id" : "3Qj8tGkFiuSS14xWvHfPDf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/8ebeae9da54d638fede9c4fd69ed30f692e965db",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/57d73d699419abbf368c35cc9675c6d36b08cb0d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ef80d5777b94ed2360caca8049147bbc7e16e9dd",
+          "width" : 64
+        } ],
+        "name" : "Strictly CAZZETTE (DJ Edition; Unmixed)",
+        "type" : "album",
+        "uri" : "spotify:album:3Qj8tGkFiuSS14xWvHfPDf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+      "disc_number" : 1,
+      "duration_ms" : 353920,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEUM71101143"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/665cPHDUQwqHY23e1lp75m"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/665cPHDUQwqHY23e1lp75m",
+      "id" : "665cPHDUQwqHY23e1lp75m",
+      "name" : "Levels - CAZZETTE's NYC Mode Mix",
+      "popularity" : 11,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bf1f3019e9365834208f2ef1465a9bd48bb9ed9c?cid=dfff07a4af354ee6815a4ef9fc8e43ea",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:665cPHDUQwqHY23e1lp75m"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 3
+  }
+}
+JSONArray[-1] not found.
+org.json.JSONException: JSONArray[-1] not found.
+ISRC=51      SEUM71101146
+START OF ITEM TRACK_NAME=Levels - Skrillex Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5HRV0yHL9ioy0FvEXbI8Xu
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX
+ARTIST_NAME=Skrillex
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX
+******************** IMAGE_ARTIST=https://i.scdn.co/image/b503d38ef805d6f3ff618558106f82234710875b
+END OF ITEM=Levels - Skrillex Remix
+
+
+START OF ITEM TRACK_NAME=Levels - Skrillex Remix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/4JZKUZsC1MSWA4I4QsTxQh
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX
+ARTIST_NAME=Skrillex
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX
+******************** IMAGE_ARTIST=https://i.scdn.co/image/b503d38ef805d6f3ff618558106f82234710875b
+END OF ITEM=Levels - Skrillex Remix
+
+
+ISRC=52      SEUM71201631
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Didrick Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4s2M9DGVUgNGMFazE2PmnH
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Didrick Remix
+
+
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Didrick Remix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/49pBlTyM0qA9pbWT1OeWDR
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Didrick Remix
+
+
+ISRC=53      SEUM71300246
+ISRC=54      AUVC01101681
+ISRC=55      USWD11156381
+START OF ITEM TRACK_NAME=Derezzed - Remixed by Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1rn6JIHBuBZiwvA57jeoOB
+ARTIST_HREF=https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi
+ARTIST_NAME=Daft Punk
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi
+******************** IMAGE_ARTIST=https://i.scdn.co/image/94a2b2dc5ed7726c7c4cc050b7a1ce210bae6611
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=Derezzed - Remixed by Avicii
+
+
+ISRC=56      CH3131340094
+START OF ITEM TRACK_NAME=Wake Me Up - Reggae Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0Fd88oYq5IZsWUsApsu0DY
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up - Reggae Mix
+
+
+ISRC=57      NLC281110338
+ISRC=58      CH3131140010
+ISRC=59      NLA321292385
+ISRC=60      NLZ541400505
+ISRC=61      CH3131340013
+START OF ITEM TRACK_NAME=April - Original Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6LWZvGhMv4dToul0btfFZ0
+ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+ARTIST_NAME=Syn Cole
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+******************** IMAGE_ARTIST=https://i.scdn.co/image/16316c85808ba671ceb339da5f3212ee2f268525
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=April - Original Mix
+
+
+START OF ITEM TRACK_NAME=April   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/5lPK0c9fKogYwKdE9Kkyiv
+ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+ARTIST_NAME=Syn Cole
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+******************** IMAGE_ARTIST=https://i.scdn.co/image/16316c85808ba671ceb339da5f3212ee2f268525
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=April
+
+
+START OF ITEM TRACK_NAME=April - Original Mix   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/51oYXK9zNfqjofMZbrlNUc
+ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+ARTIST_NAME=Syn Cole
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+******************** IMAGE_ARTIST=https://i.scdn.co/image/16316c85808ba671ceb339da5f3212ee2f268525
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=April - Original Mix
+
+
+START OF ITEM TRACK_NAME=April - Original Mix   N=3
+TRACK_HREF=https://api.spotify.com/v1/tracks/0TPdmjenWLpUPyCzBv9Qsv
+ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+ARTIST_NAME=Syn Cole
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/6i1GVNJCyyssRwXmnaeEFH
+******************** IMAGE_ARTIST=https://i.scdn.co/image/16316c85808ba671ceb339da5f3212ee2f268525
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+END OF ITEM=April - Original Mix
+
+
+ISRC=62      CH3131340056
+ISRC=63      CH3131340059
+ISRC=64      CH3131340061
+ISRC=65      CH3131340084
+START OF ITEM TRACK_NAME=Hey Brother   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4RXpgGM7A4Hg7cFBoH5KyF
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hey Brother
+
+
+START OF ITEM TRACK_NAME=Hey Brother   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/1EPP9tj69dYU2GjVbCGIID
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hey Brother
+
+
+ISRC=66      CH3131340097
+START OF ITEM TRACK_NAME=Wake Me Up - Avicii Speed Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4Ltak0PuuS0a9Vx5YaQGlb
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up - Avicii Speed Remix
+
+
+ISRC=67      CH3131340166
+ISRC=68      CH3131340180
+ISRC=69      CH3131340200
+ISRC=70      CH3131340203
+ISRC=71      CH3131340209
+ISRC=72      CH3131340214
+ISRC=73      CH3131340216
+ISRC=74      CH3131340252
+ISRC=75      CH3131340306
+ISRC=76      CH3131340312
+ISRC=77      CH3131340322
+ISRC=78      CH3131340325
+START OF ITEM TRACK_NAME=Wake Me Up - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3bMsT2EiXYKSUjc9uvIkI3
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up - Avicii By Avicii
+
+
+ISRC=79      CH3131340329
+START OF ITEM TRACK_NAME=Dear Boy - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3V368AqKw3yoyEBwXWXW8s
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Dear Boy - Avicii By Avicii
+
+
+ISRC=80      CH3131340334
+START OF ITEM TRACK_NAME=Addicted To You - David Guetta Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6YMXxomWa9gMt9gnhZOVJY
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - David Guetta Remix
+
+
+ISRC=81      CH3131340357
+ISRC=82      CH3131340371
+START OF ITEM TRACK_NAME=Addicted To You - Sick Individuals Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5K4PZeOUOW13qkJybfZIqp
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Sick Individuals Remix
+
+
+ISRC=83      CH3131340379
+ISRC=84      CH3131340418
+ISRC=85      CH3131340426
+ISRC=86      CHB701400021
+ISRC=87      CHB701400146
+ISRC=88      CHB701400247
+ISRC=89      CHB701400257
+ISRC=90      CHB701400269
+ISRC=91      CHB701400290
+ISRC=92      CHB701400291
+ISRC=93      CHB701400296
+ISRC=94      SE5R71700102
+ISRC=95      SE5R71700104
+START OF ITEM TRACK_NAME=You Be Love (feat. Billy Raffoul)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/630svau24EHHzw1kNk0Bdq
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5gw5ANPCVcxU0maLiGRzzP
+ARTIST_NAME=Billy Raffoul
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5gw5ANPCVcxU0maLiGRzzP
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3bc2bbf7d1aee2d7dc29a2422362997dd0cb0b88
+END OF ITEM=You Be Love (feat. Billy Raffoul)
+
+
+START OF ITEM TRACK_NAME=You Be Love   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/0tpFNuzGrFldTwM6giGTNJ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5gw5ANPCVcxU0maLiGRzzP
+ARTIST_NAME=Billy Raffoul
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5gw5ANPCVcxU0maLiGRzzP
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3bc2bbf7d1aee2d7dc29a2422362997dd0cb0b88
+END OF ITEM=You Be Love
+
+
+ISRC=96      SE5R71700111
+ISRC=97      SE5R71700114
+ISRC=98      SE5R71700117
+ISRC=99      SE5R71700118
+ISRC=100      SE5R71700138
+ISRC=101      SE5R81701700
+ISRC=102      SE5R81701800
+ISRC=103      SEUM71100991
+ISRC=104      SEUM71200559
+ISRC=105      SEUM71200858
+START OF ITEM TRACK_NAME=Silhouettes - Syn Cole Creamfields Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5UNSifwmQaJMCGYAxr91Mh
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Silhouettes - Syn Cole Creamfields Mix
+
+
+ISRC=106      SEUM71201030
+ISRC=107      SEUM71201601
+START OF ITEM TRACK_NAME=I Could Be The One (Avicii Vs. Nicky Romero) - Nicktim / Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/591nHHHzZl1NLt9PMKpinM
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One (Avicii Vs. Nicky Romero) - Nicktim / Radio Edit
+
+
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Radio Edit   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/1sh6lL6cmlcwhqZKGiKBua
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Radio Edit
+
+
+ISRC=108      SEUM71201630
+ISRC=109      SEUM71300623
+ISRC=110      SEUM71300626
+ISRC=111      AUVC01003963
+ISRC=112      AUVC01003966
+ISRC=113      AUVC81003922
+ISRC=114      GBCFZ1100582
+ISRC=115      NLC281011797
+ISRC=116      CH3131140014
+ISRC=117      CH3131340104
+ISRC=118      CH3131340108
+ISRC=119      CH3131340151
+ISRC=120      CH3131340169
+ISRC=121      CH3131340195
+ISRC=122      CH3131340199
+ISRC=123      CH3131340202
+ISRC=124      CH3131340241
+ISRC=125      CH3131340298
+START OF ITEM TRACK_NAME=You Make Me - Throttle Extended   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0l22heJvufyjOVH7ZntbrQ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me - Throttle Extended
+
+
+ISRC=126      CH3131340299
+ISRC=127      CH3131340307
+ISRC=128      CH3131340326
+START OF ITEM TRACK_NAME=You Make Me - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1pGnyWdri6sC7lHmYdX1TH
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me - Avicii By Avicii
+
+
+ISRC=129      CH3131340327
+START OF ITEM TRACK_NAME=Hey Brother - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3h5vVpJ7RlYVWtOG0403bL
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hey Brother - Avicii By Avicii
+
+
+START OF ITEM TRACK_NAME=Hey Brother - Avicii By Avicii   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/5AgRVPQjvE2AYpJdWvlJ4S
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5baGk14NDI3ZDPbr6wJilc
+ARTIST_NAME=Tim Bergling
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5baGk14NDI3ZDPbr6wJilc
+******************** IMAGE_ARTIST=https://i.scdn.co/image/dfca76c3ec4967216d5167ed0b78e8125e03e00b
+END OF ITEM=Hey Brother - Avicii By Avicii
+
+
+ISRC=130      CH3131340352
+ISRC=131      CH3131340369
+ISRC=132      CH3131340373
+START OF ITEM TRACK_NAME=Addicted To You - Ashley Wallbridge Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3POtJirrg1Dc1JsixZQvZH
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Ashley Wallbridge Remix
+
+
+ISRC=133      CH3131340458
+ISRC=134      CH3131340471
+START OF ITEM TRACK_NAME=The Days   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5Iy2Jj87Ha0C0IBlNE1I4y
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Days
+
+
+ISRC=135      CHB701400151
+ISRC=136      CHB701400183
+START OF ITEM TRACK_NAME=Waiting For Love - Autograf Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3le1OYKtMRZkd9fI5ti0mc
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Autograf Remix
+
+
+ISRC=137      CHB701400192
+START OF ITEM TRACK_NAME=Talk To Myself   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5IZg7Ngm3CTOj9l00YSrt9
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Talk To Myself
+
+
+ISRC=138      CHB701400200
+ISRC=139      CHB701400213
+START OF ITEM TRACK_NAME=Waiting For Love - Fabich Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4gEtadUEtvq2wv0cXQnxxZ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Fabich Remix
+
+
+ISRC=140      CHB701400249
+ISRC=141      CHB701400261
+ISRC=142      CHB701400267
+ISRC=143      CHB701400272
+ISRC=144      CHB701400281
+ISRC=145      CHB701400282
+ISRC=146      CHB701400302
+ISRC=147      CHB701400323
+ISRC=148      SE5R71700107
+ISRC=149      SE5R71700119
+ISRC=150      SE5R71700122
+ISRC=151      SE5R71700124
+ISRC=152      SE5R71700137
+START OF ITEM TRACK_NAME=Lonely Together - Acoustic   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3fgjE7IXIkrPag6YKcKeHa
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+ARTIST_NAME=Rita Ora
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+******************** IMAGE_ARTIST=https://i.scdn.co/image/0006459c76f943b1abec5b3f2b45372481c8af6d
+END OF ITEM=Lonely Together - Acoustic
+
+
+ISRC=153      SE5R71700143
+ISRC=154      SE5R81701201
+ISRC=155      SE5R81701301
+ISRC=156      SE5R81701500
+ISRC=157      SE5R81702001
+ISRC=158      SEUM71100961
+START OF ITEM TRACK_NAME=Levels   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6dfXwa0dI1sBm4CIePuOYM
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Levels
+
+
+ISRC=159      SEUM71200558
+ISRC=160      SEUM71201659
+ISRC=161      SEUM71300457
+START OF ITEM TRACK_NAME=X You - Original Version   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1FH7KpARzvcRXZZm2RNdse
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=X You - Original Version
+
+
+START OF ITEM TRACK_NAME=X You - Original Version   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/5ATzIm6kWywclGk4SqSKmk
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=X You - Original Version
+
+
+ISRC=162      SEUM71301277
+START OF ITEM TRACK_NAME=X You - Vocal Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3RoA5dAlQMFXNXIGzwjrQs
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5K458CTrSJW5iNmcIhiPAq
+ARTIST_NAME=Wailin'
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5K458CTrSJW5iNmcIhiPAq
+ERROR: {
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=isrc%3ASEUM71301277&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+          "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+          "name" : "Avicii",
+          "type" : "artist",
+          "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/71ZVldV9obf3G27IPzdikH"
+        },
+        "href" : "https://api.spotify.com/v1/albums/71ZVldV9obf3G27IPzdikH",
+        "id" : "71ZVldV9obf3G27IPzdikH",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/711f8ce7cbb2560d7761aa0f683a73f0909ab730",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/714749c64e9ddf0a2a2c2b11f0080cba47dcfc4f",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/c9427478823a8c9f6e11c2891153ea27d39dfcae",
+          "width" : 64
+        } ],
+        "name" : "X You (Vocal Radio Edit)",
+        "type" : "album",
+        "uri" : "spotify:album:71ZVldV9obf3G27IPzdikH"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5K458CTrSJW5iNmcIhiPAq"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5K458CTrSJW5iNmcIhiPAq",
+        "id" : "5K458CTrSJW5iNmcIhiPAq",
+        "name" : "Wailin'",
+        "type" : "artist",
+        "uri" : "spotify:artist:5K458CTrSJW5iNmcIhiPAq"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 215733,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "SEUM71301277"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3RoA5dAlQMFXNXIGzwjrQs"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3RoA5dAlQMFXNXIGzwjrQs",
+      "id" : "3RoA5dAlQMFXNXIGzwjrQs",
+      "name" : "X You - Vocal Radio Edit",
+      "popularity" : 23,
+      "preview_url" : null,
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:3RoA5dAlQMFXNXIGzwjrQs"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}
+JSONArray[-1] not found.
+org.json.JSONException: JSONArray[-1] not found.
+ISRC=163      SEUM71301504
+ISRC=164      GBUM71104585
+ISRC=165      GBCFZ1000966
+ISRC=166      NLC281011017
+ISRC=167      NLO111289153
+ISRC=168      CH3131140012
+ISRC=169      GBCEN1101666
+ISRC=170      CH3131340062
+ISRC=171      CH3131340148
+ISRC=172      CH3131340165
+ISRC=173      CH3131340171
+ISRC=174      CH3131340188
+ISRC=175      CH3131340197
+ISRC=176      CH3131340213
+ISRC=177      CH3131340223
+ISRC=178      CH3131340232
+ISRC=179      CH3131340258
+ISRC=180      CH3131340276
+ISRC=181      CH3131340333
+START OF ITEM TRACK_NAME=Hope There's Someone - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1jJudDuP9BhE6fQrdiLTQY
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hope There's Someone - Avicii By Avicii
+
+
+ISRC=182      CH3131340356
+ISRC=183      CH3131340374
+START OF ITEM TRACK_NAME=Addicted To You - Bent Collective Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3L6r4p46wmvVX1qmuJk3AF
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Bent Collective Remix
+
+
+ISRC=184      CH3131340420
+ISRC=185      CH3131340464
+START OF ITEM TRACK_NAME=The Nights   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0ct6r3EGTcMLPtrXHDvVjc
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Nights
+
+
+ISRC=186      CH3131340476
+ISRC=187      CHB701400019
+ISRC=188      CHB701400034
+ISRC=189      CHB701400120
+START OF ITEM TRACK_NAME=True Believer   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4zJ3S7wjKwPvLbWmeKhceh
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=True Believer
+
+
+ISRC=190      CHB701400124
+START OF ITEM TRACK_NAME=Feeling Good   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7rc6L3UtM0uvwfpsl07GBL
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Feeling Good
+
+
+ISRC=191      CHB701400142
+ISRC=192      CHB701400149
+ISRC=193      CHB701400153
+ISRC=194      CHB701400177
+START OF ITEM TRACK_NAME=Waiting For Love - Carnage & Headhunterz Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0sle4wVReAnJFNTNWxMrY5
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Carnage & Headhunterz Remix
+
+
+ISRC=195      CHB701400185
+START OF ITEM TRACK_NAME=Waiting For Love - Marshmello Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4gnvnnm2oYy8IsUZ104wOS
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Marshmello Remix
+
+
+ISRC=196      CHB701400193
+START OF ITEM TRACK_NAME=Can't Catch Me   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5vENpNhFdtArPAJgTAtnla
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Can't Catch Me
+
+
+ISRC=197      CHB701400233
+ISRC=198      CHB701400245
+ISRC=199      CHB701400251
+ISRC=200      CHB701400264
+ISRC=201      CHB701400300
+ISRC=202      CHB701400303
+ISRC=203      CHB701400304
+ISRC=204      CHB701400329
+START OF ITEM TRACK_NAME=For A Better Day - DubVision Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4e5cDgHCM5Q0IQrPfWOoCL
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=For A Better Day - DubVision Remix
+
+
+ISRC=205      CHB701400332
+ISRC=206      SE5R71700135
+START OF ITEM TRACK_NAME=Without You - Tokima Tokio Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0VN2OuOSw3nk7kJGLwrDvJ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+ARTIST_HREF=https://api.spotify.com/v1/artists/0y4uWvEejRsPQpGbldWfVX
+ARTIST_NAME=TOKIMA TOKIO
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/0y4uWvEejRsPQpGbldWfVX
+******************** IMAGE_ARTIST=https://i.scdn.co/image/ca13f0c73b20f6f07714413d966d2ec781a4c6a4
+END OF ITEM=Without You - Tokima Tokio Remix
+
+
+ISRC=207      SE5R81701901
+ISRC=208      SEUM71200176
+ISRC=209      SEUM71201629
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Audrio Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0vJElxLhYam1fqhex9UKxY
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Audrio Remix
+
+
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Audrio Remix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/1YyhNU7qB59Oiqgy98cpCO
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Audrio Remix
+
+
+ISRC=210      SEUM71201662
+ISRC=211      SEUM71201664
+ISRC=212      SEUM71300808
+ISRC=213      SEUM71301339
+ISRC=214      SEUM71301506
+ISRC=215      GBCFZ1000925
+ISRC=216      GBCFZ1101061
+ISRC=217      AUVC01003964
+ISRC=218      AUVC81003924
+ISRC=219      NLC281011799
+ISRC=220      CH3131340085
+START OF ITEM TRACK_NAME=Addicted To You   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5GayeBzzXIEl6fY0cP42Z1
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You
+
+
+ISRC=221      CH3131340086
+START OF ITEM TRACK_NAME=Dear Boy   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4AMDVGnxiXauYQxeT6Cdwv
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Dear Boy
+
+
+ISRC=222      CH3131340089
+START OF ITEM TRACK_NAME=Lay Me Down   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5iKOpf0SZDSGkJRhkwgSrl
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Lay Me Down
+
+
+ISRC=223      CH3131340193
+START OF ITEM TRACK_NAME=Canyons   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0VpqfjfG8KATgrGP6lbktI
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Canyons
+
+
+ISRC=224      CH3131340201
+ISRC=225      CH3131340208
+ISRC=226      CH3131340217
+ISRC=227      CH3131340230
+ISRC=228      CH3131340250
+ISRC=229      CH3131340253
+ISRC=230      CH3131340257
+ISRC=231      CH3131340259
+ISRC=232      CH3131340260
+ISRC=233      CH3131340261
+ISRC=234      CH3131340313
+ISRC=235      CH3131340350
+ISRC=236      CH3131340354
+ISRC=237      CH3131340358
+ISRC=238      CH3131340368
+ISRC=239      CH3131340459
+ISRC=240      CH3131340508
+ISRC=241      CHB701400020
+ISRC=242      CHB701400136
+ISRC=243      CHB701400147
+ISRC=244      CHB701400152
+ISRC=245      CHB701400155
+ISRC=246      CHB701400181
+ISRC=247      CHB701400203
+START OF ITEM TRACK_NAME=Trouble   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0JZ9TvOLtZJaGqIyC4hYZX
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Trouble
+
+
+ISRC=248      CHB701400209
+START OF ITEM TRACK_NAME=Waiting For Love - Astma & Rocwell Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4jiGby2HgwAJvcCo1cSTNb
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Astma & Rocwell Remix
+
+
+ISRC=249      CHB701400258
+ISRC=250      CHB701400259
+ISRC=251      CHB701400263
+ISRC=252      CHB701400270
+ISRC=253      CHB701400298
+ISRC=254      CHB701400307
+START OF ITEM TRACK_NAME=For A Better Day - KSHMR Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/45eNBZTEqKC6N5HauHaAJk
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=For A Better Day - KSHMR Remix
+
+
+START OF ITEM TRACK_NAME=For A Better Day - KSHMR Remix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/3wKON5fc3hbqWzz3TT2HZ4
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=For A Better Day - KSHMR Remix
+
+
+START OF ITEM TRACK_NAME=For A Better Day - KSHMR Remix   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/72mpdMosUuNk3xsHwTDdjf
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/7cHZ8lDHE0psEAAfNibx5y
+ARTIST_NAME=Niles Hollowell-Dhar
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/7cHZ8lDHE0psEAAfNibx5y
+ERROR: {
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=isrc%3ACHB701400307&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+          "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+          "name" : "Avicii",
+          "type" : "artist",
+          "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7cpxWasP1aV9Boo4pU2REk"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7cpxWasP1aV9Boo4pU2REk",
+        "id" : "7cpxWasP1aV9Boo4pU2REk",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/b26022e3e955bc2fc971288270bdfc5daeed2fcb",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/3923bec024966065c4453e9e1ddad3387e3ec206",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/738db72313767015a54e5f80c9f661ca600b4110",
+          "width" : 64
+        } ],
+        "name" : "For A Better Day (KSHMR Remix)",
+        "type" : "album",
+        "uri" : "spotify:album:7cpxWasP1aV9Boo4pU2REk"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 283239,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CHB701400307"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/45eNBZTEqKC6N5HauHaAJk"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/45eNBZTEqKC6N5HauHaAJk",
+      "id" : "45eNBZTEqKC6N5HauHaAJk",
+      "name" : "For A Better Day - KSHMR Remix",
+      "popularity" : 27,
+      "preview_url" : null,
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:45eNBZTEqKC6N5HauHaAJk"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+          "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+          "name" : "Avicii",
+          "type" : "artist",
+          "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2nrtgcTaTEy4KF742WvVC3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2nrtgcTaTEy4KF742WvVC3",
+        "id" : "2nrtgcTaTEy4KF742WvVC3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/7ffee3667cb81cfb2d2e98bdf1a9584dd322a760",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/d55f2a9a1f917204255d07f1c21f142a9c5271dd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/833928c40161ddc70191c7436db0f02698e8b0dd",
+          "width" : 64
+        } ],
+        "name" : "For A Better Day (Remixes)",
+        "type" : "album",
+        "uri" : "spotify:album:2nrtgcTaTEy4KF742WvVC3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 283239,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CHB701400307"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3wKON5fc3hbqWzz3TT2HZ4"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3wKON5fc3hbqWzz3TT2HZ4",
+      "id" : "3wKON5fc3hbqWzz3TT2HZ4",
+      "name" : "For A Better Day - KSHMR Remix",
+      "popularity" : 21,
+      "preview_url" : null,
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:3wKON5fc3hbqWzz3TT2HZ4"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+          "id" : "0LyfQWJT6nXafLPZqxe9Of",
+          "name" : "Various Artists",
+          "type" : "artist",
+          "uri" : "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+        } ],
+        "available_markets" : [ "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1K8Z7IZ85aHGIEDs0r9Jvz"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1K8Z7IZ85aHGIEDs0r9Jvz",
+        "id" : "1K8Z7IZ85aHGIEDs0r9Jvz",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/30887e061afa0c86df3b7001dbc785a1d62558c7",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/b119975928d58ccaef531a82d9215a2981015857",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/baa80d1df4e43ddcf7a916a32d08deb4d650b362",
+          "width" : 64
+        } ],
+        "name" : "Island Life Dance (Vol. 1)",
+        "type" : "album",
+        "uri" : "spotify:album:1K8Z7IZ85aHGIEDs0r9Jvz"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7cHZ8lDHE0psEAAfNibx5y"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7cHZ8lDHE0psEAAfNibx5y",
+        "id" : "7cHZ8lDHE0psEAAfNibx5y",
+        "name" : "Niles Hollowell-Dhar",
+        "type" : "artist",
+        "uri" : "spotify:artist:7cHZ8lDHE0psEAAfNibx5y"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 283253,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "CHB701400307"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/72mpdMosUuNk3xsHwTDdjf"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/72mpdMosUuNk3xsHwTDdjf",
+      "id" : "72mpdMosUuNk3xsHwTDdjf",
+      "name" : "For A Better Day - KSHMR Remix",
+      "popularity" : 4,
+      "preview_url" : null,
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:72mpdMosUuNk3xsHwTDdjf"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 3
+  }
+}
+JSONArray[-1] not found.
+org.json.JSONException: JSONArray[-1] not found.
+ISRC=255      CHB701400310
+ISRC=256      CHB701400361
+START OF ITEM TRACK_NAME=Pure Grinding - iSHi Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4NWrFSufg9qZRIcxjM8C7w
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Pure Grinding - iSHi Remix
+
+
+ISRC=257      SE5R71700105
+START OF ITEM TRACK_NAME=What Would I Change It To (feat. AlunaGeorge)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1vkXc8Tz3dZGNZoU2WF3la
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/2VAnyOxzJuSAj7XIuEOT38
+ARTIST_NAME=AlunaGeorge
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/2VAnyOxzJuSAj7XIuEOT38
+******************** IMAGE_ARTIST=https://i.scdn.co/image/08426bf5e8ba91b25356ca5f5341a2b3c9e1ec38
+END OF ITEM=What Would I Change It To (feat. AlunaGeorge)
+
+
+START OF ITEM TRACK_NAME=What Would I Change It To   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/6vPpBqqwMUgKyDe1biW2nJ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/2VAnyOxzJuSAj7XIuEOT38
+ARTIST_NAME=AlunaGeorge
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/2VAnyOxzJuSAj7XIuEOT38
+******************** IMAGE_ARTIST=https://i.scdn.co/image/08426bf5e8ba91b25356ca5f5341a2b3c9e1ec38
+END OF ITEM=What Would I Change It To
+
+
+ISRC=258      SE5R71700109
+ISRC=259      SE5R71700125
+ISRC=260      SE5R81700201
+ISRC=261      SE5R81700401
+ISRC=262      SE5R81700501
+ISRC=263      SEUM71200430
+ISRC=264      SEUM71201603
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Instrumental Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3YH5bPJEVNInmuLSfSPAxk
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Instrumental Mix
+
+
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Instrumental Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/71JQTVPcqM2ovfynjG6WFX
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Instrumental Mix
+
+
+ISRC=265      SEUM71201660
+ISRC=266      SEUM71201666
+ISRC=267      SEUM71300619
+ISRC=268      SEUM71300622
+ISRC=269      SEUM71300624
+ISRC=270      SEUM71301505
+ISRC=271      SEUV71100039
+ISRC=272      SEUV71200048
+ISRC=273      GBUM71104586
+ISRC=274      GBUM71104591
+ISRC=275      GBCFZ1101018
+ISRC=276      AUVC01003961
+ISRC=277      AUVC01003969
+ISRC=278      AUVC81003923
+ISRC=279      AUVC81003926
+ISRC=280      NLC281011796
+ISRC=281      AUON21200156
+ISRC=282      CH3131140016
+START OF ITEM TRACK_NAME=Fade Into Darkness - Albin Myers Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6lNTLdyioqKHlRsBORa4xM
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Albin Myers Remix
+
+
+ISRC=283      DEH741100367
+START OF ITEM TRACK_NAME=Sweet Dreams - Avicii Sweeder Dreams Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4yuhbiOZe5p0LXCD8nsV3E
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sweet Dreams - Avicii Sweeder Dreams Mix
+
+
+START OF ITEM TRACK_NAME=Sweet Dreams - Avicii Sweeder Dreams Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/2594vwiWOLt1x2nI68ITbA
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sweet Dreams - Avicii Sweeder Dreams Mix
+
+
+START OF ITEM TRACK_NAME=Sweet Dreams - Avicii Sweeder Dreams Mix   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/4jpSphQ8vBfya1lT0pnXnO
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sweet Dreams - Avicii Sweeder Dreams Mix
+
+
+ISRC=284      AUVC01004931
+START OF ITEM TRACK_NAME=Malo - Alex Gaudino & Jason Rooney Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7smgKprDlR30WbDIMFkV39
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Malo - Alex Gaudino & Jason Rooney Remix
+
+
+ISRC=285      NLC281011800
+ISRC=286      CH3131140002
+START OF ITEM TRACK_NAME=Fade Into Darkness - Vocal Radio Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5cxVSooSqpQ1IbVcC1nNT4
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Vocal Radio Mix
+
+
+START OF ITEM TRACK_NAME=Fade Into Darkness - Vocal Radio Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/4nfH9kiXZUaVOpIk3se7R5
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Vocal Radio Mix
+
+
+ISRC=287      GBCEN1101667
+ISRC=288      13UAAOT82746
+ISRC=289      13UAEIM12276
+ISRC=290      13UAEIM18919
+ISRC=291      CH3131340087
+START OF ITEM TRACK_NAME=Liar Liar   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0IWfRXJEnUXzwk5eeYTAHu
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Liar Liar
+
+
+ISRC=292      CH3131340167
+ISRC=293      CH3131340207
+ISRC=294      CH3131340236
+ISRC=295      CH3131340470
+ISRC=296      CH3131340496
+ISRC=297      CHB701400133
+ISRC=298      CHB701400144
+ISRC=299      CHB701400145
+ISRC=300      CHB701400211
+START OF ITEM TRACK_NAME=Waiting For Love - Addal Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2vKQDMjMzyTuwNTXx7Y23b
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Addal Remix
+
+
+ISRC=301      CHB701400226
+START OF ITEM TRACK_NAME=Sunset Jesus   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3Q95VQL8yWRO8mkF6VoDzi
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sunset Jesus
+
+
+ISRC=302      CHB701400227
+START OF ITEM TRACK_NAME=Somewhere In Stockholm   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2K1zp0p7PVmrBUQu6evtfe
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Somewhere In Stockholm
+
+
+ISRC=303      CHB701400253
+ISRC=304      CHB701400271
+ISRC=305      CHB701400275
+ISRC=306      CHB701400284
+ISRC=307      CHB701400286
+ISRC=308      CHB701400287
+ISRC=309      CHB701400345
+START OF ITEM TRACK_NAME=Broken Arrows - The Aston Shuffle Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5OmV6DgOUUJbBYPlSLfmoe
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Broken Arrows - The Aston Shuffle Remix
+
+
+ISRC=310      CHB701400349
+START OF ITEM TRACK_NAME=Broken Arrows - M-22 Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3ebotdEx3D8hvHv0TAfDws
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Broken Arrows - M-22 Remix
+
+
+ISRC=311      CHB701400360
+ISRC=312      SE5R71700113
+ISRC=313      SE5R71700120
+ISRC=314      SE5R71700134
+START OF ITEM TRACK_NAME=Without You - Notre Dame Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6DPFybv6ZkxsnBeoIAioMN
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+ARTIST_HREF=https://api.spotify.com/v1/artists/2ftdWFJjsQ9k2tH1e5YabX
+ARTIST_NAME=Notre Dame
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/2ftdWFJjsQ9k2tH1e5YabX
+******************** IMAGE_ARTIST=https://i.scdn.co/image/2c770e5fcfcac42174bf732a706638997d1c905f
+END OF ITEM=Without You - Notre Dame Remix
+
+
+ISRC=315      SE5R81700301
+ISRC=316      SE5R81701101
+ISRC=317      SE5R81701600
+ISRC=318      SE5R81702101
+ISRC=319      SEUM71200514
+ISRC=320      SEUM71200552
+ISRC=321      SEUM71200555
+ISRC=322      SEUM71200557
+ISRC=323      SEUM71201658
+ISRC=324      SEUM71300827
+ISRC=325      SEUM71301509
+ISRC=326      SEUM71302302
+ISRC=327      GBCFZ1000926
+ISRC=328      AUVC81003912
+ISRC=329      GBCFZ1000927
+ISRC=330      GBCFZ1000967
+ISRC=331      NLC281211788
+ISRC=332      DEH741100366
+START OF ITEM TRACK_NAME=Sweet Dreams - Avicii Swede Dreams Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6ujuwqUK1m5r9J6OHiwNSw
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sweet Dreams - Avicii Swede Dreams Mix
+
+
+ISRC=333      CH3131140004
+START OF ITEM TRACK_NAME=Fade Into Darkness - Instrumental Radio Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5v8CM4UYkXDSNMDUZCkQeY
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Instrumental Radio Mix
+
+
+ISRC=334      CH3131340007
+ISRC=335      CH3131340060
+ISRC=336      CH3131340090
+START OF ITEM TRACK_NAME=Hope There's Someone   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5PeguKYcJWWscfrAk3dxId
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hope There's Someone
+
+
+ISRC=337      CH3131340198
+ISRC=338      CH3131340206
+ISRC=339      CH3131340221
+ISRC=340      CH3131340237
+ISRC=341      CH3131340239
+ISRC=342      CH3131340247
+ISRC=343      CH3131340283
+START OF ITEM TRACK_NAME=Wake Me Up - PANG! Slowing Things Down Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/0gxfMHKy5AJyQw9fjJ81Je
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up - PANG! Slowing Things Down Remix
+
+
+ISRC=344      CH3131340304
+ISRC=345      CH3131340315
+START OF ITEM TRACK_NAME=You Make Me - Diplo & Ookay Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5Xil9IlcSA8QYLBI9gfVh8
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me - Diplo & Ookay Remix
+
+
+START OF ITEM TRACK_NAME=You Make Me - Diplo & Ookay Remix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/5jS8FOdcf10XeOkkawqXHr
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me - Diplo & Ookay Remix
+
+
+ISRC=346      CH3131340330
+START OF ITEM TRACK_NAME=Liar Liar - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3HKV2TCxpAAlHQphu4cJD0
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Liar Liar - Avicii By Avicii
+
+
+ISRC=347      CH3131340331
+START OF ITEM TRACK_NAME=Shame On Me - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3FHVgWirraiztByoWz0pD7
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Shame On Me - Avicii By Avicii
+
+
+ISRC=348      CH3131340382
+ISRC=349      CH3131340383
+ISRC=350      CH3131340479
+ISRC=351      CH3131340481
+ISRC=352      CHB701400010
+ISRC=353      CHB701400017
+ISRC=354      CHB701400036
+START OF ITEM TRACK_NAME=The Nights - Mike Mago Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/40jndh4Y9f3Z5VFmWnOq5l
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Nights - Mike Mago Remix
+
+
+ISRC=355      CHB701400126
+ISRC=356      CHB701400178
+START OF ITEM TRACK_NAME=Waiting For Love - Sam Feldt Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1HTW62kwj9ljWulLcrOtGb
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Sam Feldt Remix
+
+
+ISRC=357      CHB701400191
+START OF ITEM TRACK_NAME=City Lights   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/35j3CjgBRoqLp8LsAKsQF4
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=City Lights
+
+
+ISRC=358      CHB701400202
+START OF ITEM TRACK_NAME=Touch Me   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/07Wqp9LcTwzdIyuI0twXjx
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Touch Me
+
+
+ISRC=359      CHB701400231
+ISRC=360      CHB701400254
+ISRC=361      CHB701400265
+ISRC=362      CHB701400293
+ISRC=363      CHB701400333
+ISRC=364      CHB701400346
+START OF ITEM TRACK_NAME=Broken Arrows - Didrick Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3slgAd2EELiqksVXylL29c
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Broken Arrows - Didrick Remix
+
+
+ISRC=365      SEAUA1300202
+ISRC=366      SEUM71100990
+ISRC=367      SEUM71100994
+ISRC=368      SEUM71201663
+ISRC=369      SEUM71300247
+ISRC=370      SEUM71300458
+START OF ITEM TRACK_NAME=X You - Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/73ExUbskoIkjU0llIwsSzu
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=X You - Radio Edit
+
+
+START OF ITEM TRACK_NAME=X You - Radio Edit   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/330r0K82tIDVr6f1GezAd8
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=X You - Radio Edit
+
+
+ISRC=371      SEUM71301326
+START OF ITEM TRACK_NAME=Wake Me Up   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4h8VwCb1MTGoLKueQ1WgbD
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up
+
+
+START OF ITEM TRACK_NAME=Wake Me Up   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/4QRZirU4s1f30iDHzuKncj
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up
+
+
+ISRC=372      SEUM71301507
+ISRC=373      SEUM71301520
+ISRC=374      AUVC01101641
+START OF ITEM TRACK_NAME=Street Dancer - Two Fresh Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2JHrNW0lEyBqvNRvNvxPvA
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Street Dancer - Two Fresh Remix
+
+
+ISRC=375      GBCFZ1000928
+ISRC=376      AUVC01003967
+ISRC=377      NLC281110228
+ISRC=378      NLC281210017
+ISRC=379      MXF811400269
+ISRC=380      14UMJMR00136
+ISRC=381      14UMJMR00138
+ISRC=382      14UMJMR00223
+ISRC=383      CH3131140009
+ISRC=384      CH3131140013
+ISRC=385      CH3131340092
+ISRC=386      CH3131340093
+ISRC=387      CH3131340095
+ISRC=388      CH3131340164
+ISRC=389      CH3131340172
+ISRC=390      CH3131340218
+ISRC=391      CH3131340219
+ISRC=392      CH3131340249
+ISRC=393      CH3131340328
+START OF ITEM TRACK_NAME=Addicted To You - Avicii By Avicii   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3XfGM99TOeyPsnDtgTqtkT
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Avicii By Avicii
+
+
+START OF ITEM TRACK_NAME=Addicted To You - Avicii By Avicii   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/0a9nXgBODggkjuW36im31G
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Addicted To You - Avicii By Avicii
+
+
+ISRC=394      CH3131340386
+ISRC=395      CH3131340415
+ISRC=396      CH3131340473
+ISRC=397      CHB701400011
+ISRC=398      CHB701400012
+ISRC=399      CHB701400143
+ISRC=400      CHB701400150
+ISRC=401      CHB701400184
+START OF ITEM TRACK_NAME=Waiting For Love - Tundran Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/334qTqw2tNXw2naqB9s1Ao
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Tundran Remix
+
+
+ISRC=402      CHB701400230
+ISRC=403      CHB701400252
+ISRC=404      CHB701400255
+ISRC=405      CHB701400301
+ISRC=406      CHB701400348
+ISRC=407      CHB701600047
+START OF ITEM TRACK_NAME=Taste The Feeling (Avicii Vs. Conrad Sewell)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/70mHIUa4beJjFpBNyHYwT2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1rw8ZTLnDHd74TWDDukjVi
+ARTIST_NAME=Conrad Sewell
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1rw8ZTLnDHd74TWDDukjVi
+******************** IMAGE_ARTIST=https://i.scdn.co/image/2ede188dd809ddc34e0e9853f20b1b89e07d1f74
+END OF ITEM=Taste The Feeling (Avicii Vs. Conrad Sewell)
+
+
+ISRC=408      SE5R71700103
+START OF ITEM TRACK_NAME=Friend Of Mine (feat. Vargas & Lagola)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/79UX8fkSsowWI1HOd8VoYt
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/2fVW2ix4ANKiofDZIsy1XR
+ARTIST_NAME=Vargas & Lagola
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/2fVW2ix4ANKiofDZIsy1XR
+******************** IMAGE_ARTIST=https://i.scdn.co/image/4094fc3ff7e04876153e20d70f96ff6a47a163f3
+END OF ITEM=Friend Of Mine (feat. Vargas & Lagola)
+
+
+ISRC=409      SE5R71700139
+ISRC=410      SE5R81700101
+ISRC=411      SE5R81700601
+ISRC=412      SE5R81701302
+ISRC=413      SEAUA1300201
+ISRC=414      SEUM71100963
+START OF ITEM TRACK_NAME=Levels - Instrumental   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/13PN27euxLcptpNap0vbDE
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Levels - Instrumental
+
+
+ISRC=415      SEUM71100964
+ISRC=416      SEUM71100995
+ISRC=417      SEUM71100996
+ISRC=418      SEUM71200856
+START OF ITEM TRACK_NAME=Silhouettes - EDX's Arena Club Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/672cdcNOlvwqT3nJuqUh3i
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Silhouettes - EDX's Arena Club Mix
+
+
+ISRC=419      SEUM71201661
+ISRC=420      SEUM71201679
+ISRC=421      SEUM71300618
+ISRC=422      SEUM71300625
+ISRC=423      SEUM71301501
+ISRC=424      SEUM71301508
+ISRC=425      SEUV71200049
+ISRC=426      SEUV71300001
+ISRC=427      SEUV71300004
+ISRC=428      AUVC01101671
+ISRC=429      GBUM71104587
+ISRC=430      GBUM71104589
+ISRC=431      GBUM71104593
+ISRC=432      AUVC01003968
+ISRC=433      AUVC81003921
+ISRC=434      GBCFZ1000935
+ISRC=435      DEH741100369
+ISRC=436      GB28K1100047
+START OF ITEM TRACK_NAME=Sunshine   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6oNRhdGxT0CiypPQHyDiKW
+ARTIST_HREF=https://api.spotify.com/v1/artists/1Cs0zKBU1kc0i8ypK3B9ai
+ARTIST_NAME=David Guetta
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1Cs0zKBU1kc0i8ypK3B9ai
+******************** IMAGE_ARTIST=https://i.scdn.co/image/9fffb0c2f3ca88acb41c2f832b086a68df659463
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Sunshine
+
+
+ISRC=437      GB28K1200049
+START OF ITEM TRACK_NAME=Sunshine - Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3cEMbLr45pcKVjdaFWvuCS
+ARTIST_HREF=https://api.spotify.com/v1/artists/759wL1SXzQj1fVSxIjCmqP
+ARTIST_NAME=Avicii - David Guetta
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/759wL1SXzQj1fVSxIjCmqP
+ERROR: {
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=isrc%3AGB28K1200049&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1Cs0zKBU1kc0i8ypK3B9ai",
+          "id" : "1Cs0zKBU1kc0i8ypK3B9ai",
+          "name" : "David Guetta",
+          "type" : "artist",
+          "uri" : "spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai"
+        } ],
+        "available_markets" : [ "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/5aprcHwM1KJhaY9Kbxkfkn"
+        },
+        "href" : "https://api.spotify.com/v1/albums/5aprcHwM1KJhaY9Kbxkfkn",
+        "id" : "5aprcHwM1KJhaY9Kbxkfkn",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/f65af663cd7c12c4adb4e9029767537f2bb50ad1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/e0c4c99b7fe92f814ac846e7080ea4690638adeb",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/d4cfb462c90150771483b905ddd60a034531ae7e",
+          "width" : 64
+        } ],
+        "name" : "Nothing But the Beat 2.0",
+        "type" : "album",
+        "uri" : "spotify:album:5aprcHwM1KJhaY9Kbxkfkn"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/759wL1SXzQj1fVSxIjCmqP"
+        },
+        "href" : "https://api.spotify.com/v1/artists/759wL1SXzQj1fVSxIjCmqP",
+        "id" : "759wL1SXzQj1fVSxIjCmqP",
+        "name" : "Avicii - David Guetta",
+        "type" : "artist",
+        "uri" : "spotify:artist:759wL1SXzQj1fVSxIjCmqP"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 232000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GB28K1200049"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3cEMbLr45pcKVjdaFWvuCS"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3cEMbLr45pcKVjdaFWvuCS",
+      "id" : "3cEMbLr45pcKVjdaFWvuCS",
+      "name" : "Sunshine - Edit",
+      "popularity" : 27,
+      "preview_url" : "https://p.scdn.co/mp3-preview/9a30b13bc01043c19ea8b130a17a5783b89718dd?cid=dfff07a4af354ee6815a4ef9fc8e43ea",
+      "track_number" : 19,
+      "type" : "track",
+      "uri" : "spotify:track:3cEMbLr45pcKVjdaFWvuCS"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}
+JSONArray[-1] not found.
+org.json.JSONException: JSONArray[-1] not found.
+ISRC=438      11UMGIM27122
+ISRC=439      CH3131140005
+ISRC=440      CH3131140006
+ISRC=441      13UAAIM43912
+ISRC=442      CH3131340073
+ISRC=443      CH3131340083
+START OF ITEM TRACK_NAME=You Make Me   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1CKtxKqyFsFITCH4SpDrWj
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me
+
+
+ISRC=444      CH3131340091
+START OF ITEM TRACK_NAME=Heart Upon My Sleeve   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5gWbpP9zFotaJC5i2WNZvz
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Heart Upon My Sleeve
+
+
+ISRC=445      CH3131340178
+ISRC=446      CH3131340210
+ISRC=447      CH3131340211
+ISRC=448      CH3131340233
+ISRC=449      CH3131340447
+ISRC=450      CH3131340474
+ISRC=451      CH3131340477
+ISRC=452      CH3131340495
+ISRC=453      CHB701400016
+ISRC=454      CHB701400157
+ISRC=455      CHB701400188
+START OF ITEM TRACK_NAME=Broken Arrows   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/260jSxvzkFt71ksvkcy2ke
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Broken Arrows
+
+
+ISRC=456      CHB701400225
+START OF ITEM TRACK_NAME=Pure Grinding   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3uEu7hcvgrSOrgnMxzqugh
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Pure Grinding
+
+
+ISRC=457      CHB701400260
+ISRC=458      CHB701400280
+ISRC=459      CHB701400289
+ISRC=460      CHB701400294
+ISRC=461      CHB701400295
+ISRC=462      CHB701400306
+ISRC=463      CHB701400324
+ISRC=464      CHB701400356
+ISRC=465      SE5R71700115
+ISRC=466      SE5R81701001
+ISRC=467      SEUM71100989
+ISRC=468      SEUM71200551
+ISRC=469      SEUM71300084
+ISRC=470      SEUM71300807
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Noonie Bao Acoustic Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5jENp0YwSkdQt9VbYI0DAC
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Noonie Bao Acoustic Mix
+
+
+ISRC=471      SEUV71200091
+ISRC=472      GBUM71104588
+ISRC=473      GBUM71104590
+ISRC=474      GBCFZ1000924
+ISRC=475      14UMJMR00137
+ISRC=476      AUNV01100316
+ISRC=477      AUVC01101612
+START OF ITEM TRACK_NAME=Street Dancer - Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/730nSsqkSNhUUebgyrLgPJ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Street Dancer - Radio Edit
+
+
+START OF ITEM TRACK_NAME=Street Dancer - Radio Edit   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/4nqP3vc5bUpYoJnRCatTzH
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Street Dancer - Radio Edit
+
+
+START OF ITEM TRACK_NAME=Street Dancer - Radio Edit   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/5pMNEVkZplkyB6PVqZ1LDJ
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Street Dancer - Radio Edit
+
+
+ISRC=478      NLC281011795
+ISRC=479      CH3131140007
+ISRC=480      CH3131340105
+START OF ITEM TRACK_NAME=All You Need Is Love   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1dHYpFcwP21Y1YCWmhhHrs
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=All You Need Is Love
+
+
+ISRC=481      CH3131340150
+ISRC=482      CH3131340168
+ISRC=483      CH3131340176
+ISRC=484      CH3131340179
+ISRC=485      CH3131340182
+ISRC=486      CH3131340191
+ISRC=487      CH3131340196
+ISRC=488      CH3131340212
+ISRC=489      CH3131340215
+ISRC=490      CH3131340220
+ISRC=491      CH3131340231
+ISRC=492      CH3131340234
+ISRC=493      CH3131340254
+ISRC=494      CH3131340255
+ISRC=495      CH3131340271
+ISRC=496      CH3131340278
+START OF ITEM TRACK_NAME=Hey Brother - Syn Cole Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6rw6a2nTBLva837QJDZOx6
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hey Brother - Syn Cole Remix
+
+
+ISRC=497      CH3131340285
+START OF ITEM TRACK_NAME=You Make Me - Throttle Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3sFgAwiMkRcAQjDR2cZqgg
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=You Make Me - Throttle Radio Edit
+
+
+ISRC=498      CH3131340308
+ISRC=499      CH3131340478
+ISRC=500      CHB701400007
+START OF ITEM TRACK_NAME=The Days - Henrik B Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4eteOEGYlGM33q76CKdPom
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Days - Henrik B Remix
+
+
+ISRC=501      CHB701400035
+START OF ITEM TRACK_NAME=The Days - Grant Nelson Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2xhanMcOUuc43YkWHCE0f2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Days - Grant Nelson Remix
+
+
+ISRC=502      CHB701400134
+START OF ITEM TRACK_NAME=Waiting For Love   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2P4OICZRVAQcYAV2JReRfj
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love
+
+
+ISRC=503      CHB701400135
+ISRC=504      CHB701400148
+ISRC=505      CHB701400164
+ISRC=506      CHB701400176
+ISRC=507      CHB701400179
+ISRC=508      CHB701400187
+START OF ITEM TRACK_NAME=Ten More Days   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3Ai7wKn9UYkkNuygKgf4b2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Ten More Days
+
+
+ISRC=509      CHB701400228
+ISRC=510      CHB701400250
+ISRC=511      CHB701400274
+ISRC=512      CHB701400285
+ISRC=513      CHB701400299
+ISRC=514      CHB701400330
+START OF ITEM TRACK_NAME=For A Better Day - Billon Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3zSaxYc771vSLrF9D7oF9Y
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=For A Better Day - Billon Remix
+
+
+ISRC=515      CHB701400331
+ISRC=516      CHB701600073
+ISRC=517      SE5R71700101
+START OF ITEM TRACK_NAME=Without You (feat. Sandro Cavazza)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6Pgkp4qUoTmJIPn7ReaGxL
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+END OF ITEM=Without You (feat. Sandro Cavazza)
+
+
+START OF ITEM TRACK_NAME=Without You   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/4Hc4c9cSiIaTqMCXL0sLr3
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+END OF ITEM=Without You
+
+
+START OF ITEM TRACK_NAME=Without You   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/2jNNzXF8aFlk2LHeKSn9zN
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+END OF ITEM=Without You
+
+
+ISRC=518      SE5R71700126
+ISRC=519      SE5R71700128
+ISRC=520      SE5R71700133
+START OF ITEM TRACK_NAME=Without You - Otto Knows Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5As2NoLCvfghXEuTFAaRHA
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+ARTIST_HREF=https://api.spotify.com/v1/artists/5fahUm8t5c0GIdeTq0ZaG8
+ARTIST_NAME=Otto Knows
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5fahUm8t5c0GIdeTq0ZaG8
+******************** IMAGE_ARTIST=https://i.scdn.co/image/1407ded0da62184a10815c30572592a9d7286fea
+END OF ITEM=Without You - Otto Knows Remix
+
+
+ISRC=521      SE5R71700140
+START OF ITEM TRACK_NAME=Without You - Adans Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/3faIIY6RvX4uHRlw9dc0jU
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+ARTIST_HREF=https://api.spotify.com/v1/artists/1HK7OihkIXV4eELdxUSvmP
+ARTIST_NAME=Adans
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1HK7OihkIXV4eELdxUSvmP
+ERROR: {
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=isrc%3ASE5R71700140&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+          "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+          "name" : "Avicii",
+          "type" : "artist",
+          "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0t9xxSsMcwpf9AVcH1o9q9"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0t9xxSsMcwpf9AVcH1o9q9",
+        "id" : "0t9xxSsMcwpf9AVcH1o9q9",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/f4c9782d9744ea160400818e1c67e8bf7c1d9d19",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/eceef1985c58a2c27e4edc3a7a1eef6e046c6a78",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/dccd6902af4e1dae4d4efe1e6794fe232e91f328",
+          "width" : 64
+        } ],
+        "name" : "Without You (Remixes)",
+        "type" : "album",
+        "uri" : "spotify:album:0t9xxSsMcwpf9AVcH1o9q9"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6",
+        "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+        "name" : "Avicii",
+        "type" : "artist",
+        "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5JYo7gm2dkyLLlWHjxS7Dy"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy",
+        "id" : "5JYo7gm2dkyLLlWHjxS7Dy",
+        "name" : "Sandro Cavazza",
+        "type" : "artist",
+        "uri" : "spotify:artist:5JYo7gm2dkyLLlWHjxS7Dy"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1HK7OihkIXV4eELdxUSvmP"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1HK7OihkIXV4eELdxUSvmP",
+        "id" : "1HK7OihkIXV4eELdxUSvmP",
+        "name" : "Adans",
+        "type" : "artist",
+        "uri" : "spotify:artist:1HK7OihkIXV4eELdxUSvmP"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 184240,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "SE5R71700140"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3faIIY6RvX4uHRlw9dc0jU"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3faIIY6RvX4uHRlw9dc0jU",
+      "id" : "3faIIY6RvX4uHRlw9dc0jU",
+      "name" : "Without You - Adans Remix",
+      "popularity" : 48,
+      "preview_url" : null,
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:3faIIY6RvX4uHRlw9dc0jU"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}
+JSONArray[-1] not found.
+org.json.JSONException: JSONArray[-1] not found.
+ISRC=522      SE5R71700142
+ISRC=523      SE5R81700701
+ISRC=524      SE5R81700801
+ISRC=525      SEUM71100962
+START OF ITEM TRACK_NAME=Levels - Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/5QjJgPU8AJeickx34f7on6
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Levels - Radio Edit
+
+
+START OF ITEM TRACK_NAME=Levels - Radio Edit   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/6f54knyJHYJ1v6P591HPWU
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Levels - Radio Edit
+
+
+ISRC=526      SEUM71100992
+ISRC=527      SEUM71200553
+ISRC=528      SEUM71200554
+ISRC=529      SEUM71200556
+ISRC=530      SEUM71300538
+ISRC=531      SEUM71300565
+ISRC=532      SEUM71300621
+ISRC=533      SEUM71301502
+ISRC=534      SEUV71200032
+ISRC=535      AUVC01101661
+ISRC=536      AUVC01003962
+ISRC=537      AUVC01003971
+START OF ITEM TRACK_NAME=My Feelings for You - Booty Callers Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/282GVWyBvbAGHwILjVxW4u
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/0lHsjYcb3lGjkJQQqC6HVt
+ARTIST_NAME=Sebastien Drums
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/0lHsjYcb3lGjkJQQqC6HVt
+******************** IMAGE_ARTIST=https://i.scdn.co/image/35cdd9ebffbb8db7b80da2443d6190751fa0eb78
+END OF ITEM=My Feelings for You - Booty Callers Remix
+
+
+ISRC=538      CH3131140003
+START OF ITEM TRACK_NAME=Fade Into Darkness - Instrumental Club Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2TIvnrDe9InJgIir87sfjC
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Fade Into Darkness - Instrumental Club Mix
+
+
+ISRC=539      CH3131140011
+ISRC=540      GBAHT1200455
+START OF ITEM TRACK_NAME=Last Dance   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6IqhpfHKMIWKvEaY8H7Ebb
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Last Dance
+
+
+ISRC=541      13UAAIM82740
+ISRC=542      13UAEIM12275
+ISRC=543      13UAEIM71453
+ISRC=544      15UMGIM24288
+ISRC=545      CH3131340088
+START OF ITEM TRACK_NAME=Shame On Me   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7rwXeI0bXaZms9zgC7T32Q
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Shame On Me
+
+
+ISRC=546      CH3131340170
+ISRC=547      CH3131340174
+ISRC=548      CH3131340181
+ISRC=549      CH3131340204
+ISRC=550      CH3131340222
+ISRC=551      CH3131340235
+ISRC=552      CH3131340238
+ISRC=553      CH3131340245
+ISRC=554      CH3131340248
+ISRC=555      CH3131340269
+START OF ITEM TRACK_NAME=Hey Brother - Extended Version   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4f1PgGgzxo6fHH98jt1cK0
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Hey Brother - Extended Version
+
+
+ISRC=556      CH3131340279
+ISRC=557      CH3131340284
+START OF ITEM TRACK_NAME=Wake Me Up - EDX Miami Sunset Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6vQ0VbsRRFOYVmjAMM8c2a
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Wake Me Up - EDX Miami Sunset Remix
+
+
+ISRC=558      CH3131340355
+ISRC=559      CH3131340480
+ISRC=560      CHB701400008
+START OF ITEM TRACK_NAME=The Nights - Felix Jaehn Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6xNSaBtoPKlPhXsNT7ZwLd
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=The Nights - Felix Jaehn Remix
+
+
+ISRC=561      CHB701400013
+ISRC=562      CHB701400014
+ISRC=563      CHB701400015
+ISRC=564      CHB701400033
+ISRC=565      CHB701400038
+ERROR: {
+  "error" : {
+    "status" : 502,
+    "message" : "Bad gateway."
+  }
+}
+JSONObject["tracks"] not found.
+org.json.JSONException: JSONObject["tracks"] not found.
+ISRC=566      CHB701400154
+ISRC=567      CHB701400156
+ISRC=568      CHB701400182
+START OF ITEM TRACK_NAME=Waiting For Love - Prinston & Astrid S Acoustic Version   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/58C5veSCNk7krG3kOUsdJg
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Waiting For Love - Prinston & Astrid S Acoustic Version
+
+
+ISRC=569      CHB701400186
+ISRC=570      CHB701400189
+START OF ITEM TRACK_NAME=For A Better Day   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/7kbTZWt7DnzIzbkyzFE1PW
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=For A Better Day
+
+
+ISRC=571      CHB701400190
+ISRC=572      CHB701400201
+ISRC=573      CHB701400232
+ISRC=574      CHB701400268
+ISRC=575      CHB701400288
+ISRC=576      CHB701400292
+ISRC=577      CHB701400297
+ISRC=578      CHB701400347
+START OF ITEM TRACK_NAME=Broken Arrows - Kid Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/1BErBWB7ryNqFIggPsN0lm
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Broken Arrows - Kid Remix
+
+
+ISRC=579      CHB701600115
+ISRC=580      SE5R71700106
+START OF ITEM TRACK_NAME=So Much Better - Avicii Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/6i3WMnuvd8DtczaGIMJvwC
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+END OF ITEM=So Much Better - Avicii Remix
+
+
+ISRC=581      SE5R71700108
+START OF ITEM TRACK_NAME=Lonely Together (feat. Rita Ora)   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/75NhhYjHO43mvZgYtnXgti
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+ARTIST_NAME=Rita Ora
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+******************** IMAGE_ARTIST=https://i.scdn.co/image/0006459c76f943b1abec5b3f2b45372481c8af6d
+END OF ITEM=Lonely Together (feat. Rita Ora)
+
+
+START OF ITEM TRACK_NAME=Lonely Together   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/0WaCmhuiBv57IAmfgSaxza
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+ARTIST_NAME=Rita Ora
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+******************** IMAGE_ARTIST=https://i.scdn.co/image/0006459c76f943b1abec5b3f2b45372481c8af6d
+END OF ITEM=Lonely Together
+
+
+START OF ITEM TRACK_NAME=Lonely Together   N=2
+TRACK_HREF=https://api.spotify.com/v1/tracks/0n6lc5tmHM1Mn6H7CexNko
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+ARTIST_NAME=Rita Ora
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5CCwRZC6euC8Odo6y9X8jr
+******************** IMAGE_ARTIST=https://i.scdn.co/image/0006459c76f943b1abec5b3f2b45372481c8af6d
+END OF ITEM=Lonely Together
+
+
+ISRC=582      SE5R71700116
+ISRC=583      SE5R71700132
+START OF ITEM TRACK_NAME=Without You - Merk & Kremont Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/56UuQKt0DUeLUOD8o98QFR
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+ARTIST_NAME=Sandro Cavazza
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5JYo7gm2dkyLLlWHjxS7Dy
+******************** IMAGE_ARTIST=https://i.scdn.co/image/3e7c33f3725c33ebbf0b08c5a2eaed6ac55c20f0
+ARTIST_HREF=https://api.spotify.com/v1/artists/5rRcnWrevHgbuWjl7Lhft7
+ARTIST_NAME=Merk & Kremont
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5rRcnWrevHgbuWjl7Lhft7
+******************** IMAGE_ARTIST=https://i.scdn.co/image/f9638cad467af20f233713ab31ee19a83a339df8
+END OF ITEM=Without You - Merk & Kremont Remix
+
+
+ISRC=584      SE5R71700136
+ISRC=585      SE5R81700901
+ISRC=586      SEUM71100997
+ISRC=587      SEUM71101144
+ISRC=588      SEUM71200477
+START OF ITEM TRACK_NAME=Silhouettes - Original Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/06h3McKzmxS8Bx58USHiMq
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Silhouettes - Original Radio Edit
+
+
+ISRC=589      SEUM71200857
+START OF ITEM TRACK_NAME=Silhouettes - Lazy Rich Remix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2M0Vkppk2CKUjDVV13yZd2
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Silhouettes - Lazy Rich Remix
+
+
+ISRC=590      SEUM71200859
+START OF ITEM TRACK_NAME=Silhouettes - Syn Cole Creamfields Mix Radio Edit   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/4X2BIIya9UFeVKF9G6nU4d
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+END OF ITEM=Silhouettes - Syn Cole Creamfields Mix Radio Edit
+
+
+ISRC=591      SEUM71201602
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Original Mix   N=0
+TRACK_HREF=https://api.spotify.com/v1/tracks/2kmUFYCzycnGRSjZgwCfWo
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Original Mix
+
+
+START OF ITEM TRACK_NAME=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Original Mix   N=1
+TRACK_HREF=https://api.spotify.com/v1/tracks/1qCeqLIDEdgGiHsRc6uPmk
+ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+ARTIST_NAME=Avicii
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/1vCWHaC5f2uS3yhpwWbIA6
+******************** IMAGE_ARTIST=https://i.scdn.co/image/c55bc6f57b6bb297425c3ae694f92672dcf0e2c2
+ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+ARTIST_NAME=Nicky Romero
+oooooo ARTIST_HREF=https://api.spotify.com/v1/artists/5ChF3i92IPZHduM7jN3dpg
+******************** IMAGE_ARTIST=https://i.scdn.co/image/6b1d1296aa28d52366edfdce7d6ec4e09a5185b8
+END OF ITEM=I Could Be The One [Avicii vs Nicky Romero] - Nicktim - Original Mix
+
+
+ISRC=592      SEUM71201665
+ISRC=593      SEUM71300620
+ISRC=594      SEUM71301190
+ISRC=595      SEUM71301500
+ISRC=596      SEUM71301503
+ISRC=597      SEUV71200028
+ISRC=598      GBUM71104592
+ISRC=599      AUVC81003925
+Elapsed time = 1992
+
+Process finished with exit code 0
